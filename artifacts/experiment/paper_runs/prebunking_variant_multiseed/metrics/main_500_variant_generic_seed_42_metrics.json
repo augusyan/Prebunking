@@ -1,0 +1,135 @@
+{
+  "label": "main_500_variant_generic_seed_42",
+  "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_42.db",
+  "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_42.csv",
+  "benign_user_count": 450,
+  "bad_user_count": 50,
+  "bad_post_count": 292,
+  "macro": {
+    "infection_user_count": 10,
+    "resistance_user_count": 170,
+    "infection_rate_pct": 2.2222,
+    "resistance_rate_pct": 37.7778,
+    "infection_components": {
+      "like_user_count": 2,
+      "repost_user_count": 8
+    },
+    "resistance_components": {
+      "dislike_user_count": 19,
+      "disagree_comment_user_count": 169
+    }
+  },
+  "micro": {
+    "comment_count": 640,
+    "stance_comment_counts": {
+      "agree_true": 15,
+      "agree_false": 625
+    },
+    "stance_comment_pct": {
+      "agree_true": 2.3438,
+      "agree_false": 97.6562
+    },
+    "representative_emotions": {
+      "skepticism": {
+        "count": 282,
+        "pct": 44.0625
+      },
+      "vigilance": {
+        "count": 127,
+        "pct": 19.8438
+      },
+      "anger": {
+        "count": 219,
+        "pct": 34.2188
+      },
+      "neutral": {
+        "count": 5,
+        "pct": 0.7812
+      }
+    },
+    "all_emotions": {
+      "anger": 219,
+      "confusion": 2,
+      "fanaticism": 1,
+      "neutral": 5,
+      "panic": 4,
+      "skepticism": 282,
+      "vigilance": 127
+    }
+  },
+  "time_series": {
+    "stats_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/stats_inputs/main_500_variant_generic_seed_42/post_stats_data_main_500_variant_generic_seed_42_2026-05-02_18-46-02.npy",
+    "columns": [
+      "good_like_count",
+      "good_repost_count",
+      "agree_comment_count",
+      "disagree_comment_count"
+    ],
+    "peak_infection_proxy_step": 9,
+    "peak_infection_proxy_value": 26.0,
+    "peak_resistance_step": 10,
+    "peak_resistance_value": 556.0,
+    "series": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        3.0,
+        66.0
+      ],
+      [
+        1.0,
+        2.0,
+        4.0,
+        103.0
+      ],
+      [
+        1.0,
+        5.0,
+        4.0,
+        158.0
+      ],
+      [
+        3.0,
+        7.0,
+        5.0,
+        222.0
+      ],
+      [
+        3.0,
+        8.0,
+        10.0,
+        289.0
+      ],
+      [
+        4.0,
+        9.0,
+        11.0,
+        358.0
+      ],
+      [
+        4.0,
+        9.0,
+        12.0,
+        418.0
+      ],
+      [
+        4.0,
+        9.0,
+        13.0,
+        492.0
+      ],
+      [
+        4.0,
+        9.0,
+        13.0,
+        556.0
+      ]
+    ]
+  }
+}

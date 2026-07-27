@@ -1,0 +1,4 @@
+condition,n,malicious_ir_pct_mean,malicious_ir_pct_std,malicious_ir_pct_ci95,benign_support_pct_mean,benign_support_pct_std,benign_support_pct_ci95,benign_disagreement_pct_mean,benign_disagreement_pct_std,benign_disagreement_pct_ci95
+no_defense,5,10.3556,2.0160,1.7671,37.4667,3.9397,3.4533,20.2667,1.6585,1.4537
+prebunking,5,4.5778,1.0256,0.8990,30.8889,2.1140,1.8530,26.0000,2.8846,2.5285
+debunking,5,7.5111,1.0352,0.9074,37.7778,3.2735,2.8694,17.7778,1.7285,1.5151

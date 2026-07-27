@@ -1,0 +1,169 @@
+{
+  "label": "main_500_ablation_message_exposure_cov10_seed_82",
+  "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_message_exposure_cov10_seed_82.db",
+  "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_message_exposure_cov10_seed_82.csv",
+  "benign_user_count": 450,
+  "bad_user_count": 50,
+  "treated_benign_user_count": 45,
+  "untreated_benign_user_count": 405,
+  "bad_post_count": 300,
+  "macro": {
+    "infection_user_count": 42,
+    "resistance_user_count": 184,
+    "infection_rate_pct": 9.3333,
+    "resistance_rate_pct": 40.8889,
+    "infection_components": {
+      "like_user_count": 13,
+      "repost_user_count": 34
+    },
+    "resistance_components": {
+      "dislike_user_count": 9,
+      "disagree_comment_user_count": 184
+    }
+  },
+  "group_macro": {
+    "treated_benign": {
+      "user_count": 45,
+      "infection_user_count": 2,
+      "resistance_user_count": 24,
+      "infection_rate_pct": 4.4444,
+      "resistance_rate_pct": 53.3333,
+      "infection_components": {
+        "like_user_count": 0,
+        "repost_user_count": 2
+      },
+      "resistance_components": {
+        "dislike_user_count": 0,
+        "disagree_comment_user_count": 24
+      }
+    },
+    "untreated_benign": {
+      "user_count": 405,
+      "infection_user_count": 40,
+      "resistance_user_count": 160,
+      "infection_rate_pct": 9.8765,
+      "resistance_rate_pct": 39.5062,
+      "infection_components": {
+        "like_user_count": 13,
+        "repost_user_count": 32
+      },
+      "resistance_components": {
+        "dislike_user_count": 9,
+        "disagree_comment_user_count": 160
+      }
+    }
+  },
+  "micro": {
+    "comment_count": 790,
+    "stance_comment_counts": {
+      "agree_true": 52,
+      "agree_false": 738
+    },
+    "stance_comment_pct": {
+      "agree_true": 6.5823,
+      "agree_false": 93.4177
+    },
+    "representative_emotions": {
+      "skepticism": {
+        "count": 211,
+        "pct": 26.7089
+      },
+      "vigilance": {
+        "count": 159,
+        "pct": 20.1266
+      },
+      "anger": {
+        "count": 396,
+        "pct": 50.1266
+      },
+      "neutral": {
+        "count": 2,
+        "pct": 0.2532
+      }
+    },
+    "all_emotions": {
+      "anger": 396,
+      "confusion": 2,
+      "fanaticism": 13,
+      "neutral": 2,
+      "panic": 7,
+      "skepticism": 211,
+      "vigilance": 159
+    }
+  },
+  "time_series": {
+    "stats_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/stats_inputs/main_500_ablation_message_exposure_cov10_seed_82/post_stats_data_main_500_ablation_message_exposure_cov10_seed_82_2026-05-21_12-54-50.npy",
+    "columns": [
+      "good_like_count",
+      "good_repost_count",
+      "agree_comment_count",
+      "disagree_comment_count"
+    ],
+    "peak_infection_proxy_step": 10,
+    "peak_infection_proxy_value": 100.0,
+    "peak_resistance_step": 10,
+    "peak_resistance_value": 650.0,
+    "series": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0,
+        4.0,
+        90.0
+      ],
+      [
+        2.0,
+        26.0,
+        11.0,
+        146.0
+      ],
+      [
+        8.0,
+        31.0,
+        16.0,
+        195.0
+      ],
+      [
+        10.0,
+        34.0,
+        23.0,
+        269.0
+      ],
+      [
+        10.0,
+        34.0,
+        27.0,
+        338.0
+      ],
+      [
+        10.0,
+        37.0,
+        32.0,
+        408.0
+      ],
+      [
+        12.0,
+        38.0,
+        35.0,
+        494.0
+      ],
+      [
+        13.0,
+        39.0,
+        42.0,
+        572.0
+      ],
+      [
+        14.0,
+        41.0,
+        45.0,
+        650.0
+      ]
+    ]
+  }
+}

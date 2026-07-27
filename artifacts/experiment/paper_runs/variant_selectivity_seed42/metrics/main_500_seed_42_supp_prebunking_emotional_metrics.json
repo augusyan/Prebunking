@@ -1,0 +1,134 @@
+{
+  "label": "supp_prebunking_emotional",
+  "db_path": "artifacts/experiment/paper_runs/supplementary_prebunking_500/db/supp_prebunking_emotional.db",
+  "csv_path": "artifacts/experiment/paper_runs/supplementary_prebunking_500/csv/supp_prebunking_emotional.csv",
+  "benign_user_count": 450,
+  "bad_user_count": 50,
+  "bad_post_count": 294,
+  "macro": {
+    "infection_user_count": 21,
+    "resistance_user_count": 169,
+    "infection_rate_pct": 4.6667,
+    "resistance_rate_pct": 37.5556,
+    "infection_components": {
+      "like_user_count": 7,
+      "repost_user_count": 15
+    },
+    "resistance_components": {
+      "dislike_user_count": 12,
+      "disagree_comment_user_count": 169
+    }
+  },
+  "micro": {
+    "comment_count": 644,
+    "stance_comment_counts": {
+      "agree_true": 17,
+      "agree_false": 627
+    },
+    "stance_comment_pct": {
+      "agree_true": 2.6398,
+      "agree_false": 97.3602
+    },
+    "representative_emotions": {
+      "skepticism": {
+        "count": 260,
+        "pct": 40.3727
+      },
+      "vigilance": {
+        "count": 168,
+        "pct": 26.087
+      },
+      "anger": {
+        "count": 206,
+        "pct": 31.9876
+      },
+      "neutral": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "all_emotions": {
+      "anger": 206,
+      "confusion": 3,
+      "fanaticism": 6,
+      "panic": 1,
+      "skepticism": 260,
+      "vigilance": 168
+    }
+  },
+  "time_series": {
+    "stats_path": "artifacts/experiment/paper_runs/supplementary_prebunking_500/stats_inputs/supp_prebunking_emotional/post_stats_data_supp_prebunking_emotional_2026-04-21_23-26-42.npy",
+    "columns": [
+      "good_like_count",
+      "good_repost_count",
+      "agree_comment_count",
+      "disagree_comment_count"
+    ],
+    "peak_infection_proxy_step": 10,
+    "peak_infection_proxy_value": 39.0,
+    "peak_resistance_step": 10,
+    "peak_resistance_value": 578.0,
+    "series": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        5.0,
+        0.0,
+        68.0
+      ],
+      [
+        4.0,
+        5.0,
+        2.0,
+        117.0
+      ],
+      [
+        7.0,
+        7.0,
+        4.0,
+        174.0
+      ],
+      [
+        7.0,
+        7.0,
+        4.0,
+        238.0
+      ],
+      [
+        7.0,
+        8.0,
+        5.0,
+        308.0
+      ],
+      [
+        11.0,
+        9.0,
+        7.0,
+        363.0
+      ],
+      [
+        11.0,
+        11.0,
+        10.0,
+        433.0
+      ],
+      [
+        11.0,
+        12.0,
+        14.0,
+        510.0
+      ],
+      [
+        11.0,
+        13.0,
+        15.0,
+        578.0
+      ]
+    ]
+  }
+}

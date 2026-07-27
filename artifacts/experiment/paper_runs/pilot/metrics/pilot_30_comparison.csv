@@ -1,0 +1,4 @@
+condition,infection_rate_pct,resistance_rate_pct,infection_user_count,resistance_user_count,agree_comment_pct,disagree_comment_pct,agree_comment_count,disagree_comment_count,comment_count,peak_infection_proxy_step,peak_infection_proxy_value,peak_resistance_step,peak_resistance_value,skepticism_pct,vigilance_pct,anger_pct,panic_pct,fanaticism_pct,confusion_pct,source_json
+no_defense,15.0,55.0,3,11,5.2632,94.7368,3,54,57,8,5.0,10,46.0,15.7895,31.5789,45.614,1.7544,3.5088,1.7544,artifacts/experiment/paper_runs/pilot/metrics/pilot_30_no_defense_metrics.json
+debunking,15.0,75.0,3,15,10.6383,89.3617,5,42,47,7,7.0,10,34.0,38.2979,23.4043,27.6596,0.0,10.6383,0.0,artifacts/experiment/paper_runs/pilot/metrics/pilot_30_debunking_metrics.json
+prebunking,0.0,75.0,0,15,2.8986,97.1014,2,67,69,9,2.0,10,60.0,39.1304,7.2464,53.6232,0.0,0.0,0.0,artifacts/experiment/paper_runs/pilot/metrics/pilot_30_prebunking_metrics.json

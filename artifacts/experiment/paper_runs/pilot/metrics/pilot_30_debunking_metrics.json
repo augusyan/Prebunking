@@ -1,0 +1,132 @@
+{
+  "label": "pilot_30_debunking",
+  "db_path": "artifacts/experiment/paper_runs/pilot/db/pilot_30_debunking.db",
+  "csv_path": "data/our_twitter_sim/test_30_good_bad_random_bernoulli_.csv",
+  "benign_user_count": 20,
+  "bad_user_count": 10,
+  "bad_post_count": 97,
+  "macro": {
+    "infection_user_count": 3,
+    "resistance_user_count": 15,
+    "infection_rate_pct": 15.0,
+    "resistance_rate_pct": 75.0,
+    "infection_components": {
+      "like_user_count": 1,
+      "repost_user_count": 2
+    },
+    "resistance_components": {
+      "dislike_user_count": 3,
+      "disagree_comment_user_count": 13
+    }
+  },
+  "micro": {
+    "comment_count": 47,
+    "stance_comment_counts": {
+      "agree_true": 5,
+      "agree_false": 42
+    },
+    "stance_comment_pct": {
+      "agree_true": 10.6383,
+      "agree_false": 89.3617
+    },
+    "representative_emotions": {
+      "skepticism": {
+        "count": 18,
+        "pct": 38.2979
+      },
+      "vigilance": {
+        "count": 11,
+        "pct": 23.4043
+      },
+      "anger": {
+        "count": 13,
+        "pct": 27.6596
+      },
+      "neutral": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "all_emotions": {
+      "anger": 13,
+      "fanaticism": 5,
+      "skepticism": 18,
+      "vigilance": 11
+    }
+  },
+  "time_series": {
+    "stats_path": "artifacts/experiment/paper_runs/pilot/stats_inputs/debunking/post_stats_data_test_30_good_bad_random_bernoulli__2026-04-21_15-17-13.npy",
+    "columns": [
+      "good_like_count",
+      "good_repost_count",
+      "agree_comment_count",
+      "disagree_comment_count"
+    ],
+    "peak_infection_proxy_step": 7,
+    "peak_infection_proxy_value": 7.0,
+    "peak_resistance_step": 10,
+    "peak_resistance_value": 34.0,
+    "series": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        5.0
+      ],
+      [
+        2.0,
+        2.0,
+        1.0,
+        13.0
+      ],
+      [
+        2.0,
+        3.0,
+        1.0,
+        15.0
+      ],
+      [
+        2.0,
+        3.0,
+        1.0,
+        19.0
+      ],
+      [
+        2.0,
+        3.0,
+        1.0,
+        20.0
+      ],
+      [
+        2.0,
+        3.0,
+        2.0,
+        22.0
+      ],
+      [
+        0.0,
+        3.0,
+        3.0,
+        27.0
+      ],
+      [
+        0.0,
+        3.0,
+        3.0,
+        29.0
+      ],
+      [
+        0.0,
+        3.0,
+        4.0,
+        34.0
+      ]
+    ]
+  }
+}

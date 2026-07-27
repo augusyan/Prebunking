@@ -1,0 +1,8 @@
+{
+  "sample_count": 225,
+  "workbook_path": "artifacts/human_annotation/blind_comment_zh/blind_comment_annotation_sheet_zh.xlsx",
+  "blind_csv_path": "artifacts/human_annotation/blind_comment_zh/blind_comment_annotation_sheet_zh.csv",
+  "llm_csv_path": "artifacts/human_annotation/blind_comment_zh/blind_comment_llm_results_zh.csv",
+  "key_csv_path": "artifacts/human_annotation/blind_comment_zh/blind_comment_annotation_key_internal.csv",
+  "model": "gpt-4o-mini"
+}

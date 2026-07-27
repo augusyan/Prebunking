@@ -1,0 +1,169 @@
+{
+  "label": "main_500_variant_fact_seed_42",
+  "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_42.db",
+  "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_42.csv",
+  "benign_user_count": 450,
+  "bad_user_count": 50,
+  "treated_benign_user_count": 450,
+  "untreated_benign_user_count": 0,
+  "bad_post_count": 292,
+  "macro": {
+    "infection_user_count": 12,
+    "resistance_user_count": 174,
+    "infection_rate_pct": 2.6667,
+    "resistance_rate_pct": 38.6667,
+    "infection_components": {
+      "like_user_count": 3,
+      "repost_user_count": 10
+    },
+    "resistance_components": {
+      "dislike_user_count": 17,
+      "disagree_comment_user_count": 174
+    }
+  },
+  "group_macro": {
+    "treated_benign": {
+      "user_count": 450,
+      "infection_user_count": 12,
+      "resistance_user_count": 174,
+      "infection_rate_pct": 2.6667,
+      "resistance_rate_pct": 38.6667,
+      "infection_components": {
+        "like_user_count": 3,
+        "repost_user_count": 10
+      },
+      "resistance_components": {
+        "dislike_user_count": 17,
+        "disagree_comment_user_count": 174
+      }
+    },
+    "untreated_benign": {
+      "user_count": 0,
+      "infection_user_count": 0,
+      "resistance_user_count": 0,
+      "infection_rate_pct": 0.0,
+      "resistance_rate_pct": 0.0,
+      "infection_components": {
+        "like_user_count": 0,
+        "repost_user_count": 0
+      },
+      "resistance_components": {
+        "dislike_user_count": 0,
+        "disagree_comment_user_count": 0
+      }
+    }
+  },
+  "micro": {
+    "comment_count": 704,
+    "stance_comment_counts": {
+      "agree_true": 6,
+      "agree_false": 698
+    },
+    "stance_comment_pct": {
+      "agree_true": 0.8523,
+      "agree_false": 99.1477
+    },
+    "representative_emotions": {
+      "skepticism": {
+        "count": 398,
+        "pct": 56.5341
+      },
+      "vigilance": {
+        "count": 159,
+        "pct": 22.5852
+      },
+      "anger": {
+        "count": 136,
+        "pct": 19.3182
+      },
+      "neutral": {
+        "count": 2,
+        "pct": 0.2841
+      }
+    },
+    "all_emotions": {
+      "anger": 136,
+      "confusion": 5,
+      "fanaticism": 1,
+      "neutral": 2,
+      "panic": 3,
+      "skepticism": 398,
+      "vigilance": 159
+    }
+  },
+  "time_series": {
+    "stats_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/stats_inputs/main_500_variant_fact_seed_42/post_stats_data_main_500_variant_fact_seed_42_2026-05-05_15-44-12.npy",
+    "columns": [
+      "good_like_count",
+      "good_repost_count",
+      "agree_comment_count",
+      "disagree_comment_count"
+    ],
+    "peak_infection_proxy_step": 10,
+    "peak_infection_proxy_value": 22.0,
+    "peak_resistance_step": 10,
+    "peak_resistance_value": 621.0,
+    "series": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        87.0
+      ],
+      [
+        2.0,
+        3.0,
+        0.0,
+        134.0
+      ],
+      [
+        3.0,
+        10.0,
+        4.0,
+        192.0
+      ],
+      [
+        3.0,
+        11.0,
+        4.0,
+        263.0
+      ],
+      [
+        3.0,
+        12.0,
+        5.0,
+        330.0
+      ],
+      [
+        3.0,
+        12.0,
+        5.0,
+        380.0
+      ],
+      [
+        4.0,
+        12.0,
+        5.0,
+        445.0
+      ],
+      [
+        4.0,
+        12.0,
+        5.0,
+        536.0
+      ],
+      [
+        4.0,
+        12.0,
+        6.0,
+        621.0
+      ]
+    ]
+  }
+}

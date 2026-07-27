@@ -1,0 +1,11 @@
+seed,condition,label,malicious_ir_pct,benign_support_pct,benign_disagreement_pct,benign_user_count,benign_root_post_count,support_user_count,disagreement_user_count
+42,no_defense,main_500_seed_42_no_defense,9.7778,36.44444444444444,21.77777777777778,450,460,164,98
+42,prebunking,main_500_seed_42_prebunking,4.2222,32.666666666666664,23.11111111111111,450,468,147,104
+42,supp_prebunking_emotional,main_500_seed_42_supp_prebunking_emotional,4.6667,29.333333333333332,23.555555555555557,450,481,132,106
+42,supp_prebunking_fact,main_500_seed_42_supp_prebunking_fact,4.4444,30.666666666666668,30.666666666666668,450,458,138,138
+42,supp_prebunking_logic,main_500_seed_42_supp_prebunking_logic,3.3333,29.77777777777778,25.333333333333332,450,463,134,114
+42,supp_prebunking_random_feed,main_500_seed_42_supp_prebunking_random_feed,9.7778,20.22222222222222,28.666666666666668,450,450,91,129
+42,supp_prebunking_t1_500,main_500_seed_42_supp_prebunking_t1_500,2.4444,31.555555555555557,28.88888888888889,450,460,142,130
+42,supp_prebunking_t3,main_500_seed_42_supp_prebunking_t3,5.1111,30.88888888888889,25.77777777777778,450,460,139,116
+42,supp_prebunking_t6,main_500_seed_42_supp_prebunking_t6,11.3333,32.666666666666664,23.555555555555557,450,462,147,106
+42,supp_prebunking_technical,main_500_seed_42_supp_prebunking_technical,3.1111,26.444444444444443,29.77777777777778,450,464,119,134

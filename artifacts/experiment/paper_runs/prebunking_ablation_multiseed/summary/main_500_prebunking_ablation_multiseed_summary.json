@@ -1,0 +1,821 @@
+[
+  {
+    "case": "Role Rewrite Full",
+    "case_key": "role_rewrite_full",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 2.6667,
+        "resistance_rate_pct": 41.3333,
+        "treated_infection_rate_pct": 2.6667,
+        "treated_resistance_rate_pct": 41.3333,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 3.7778,
+        "resistance_rate_pct": 44.4444,
+        "treated_infection_rate_pct": 3.7778,
+        "treated_resistance_rate_pct": 44.4444,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 3.7778,
+        "resistance_rate_pct": 39.5556,
+        "treated_infection_rate_pct": 3.7778,
+        "treated_resistance_rate_pct": 39.5556,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 2.8889,
+        "resistance_rate_pct": 40.2222,
+        "treated_infection_rate_pct": 2.8889,
+        "treated_resistance_rate_pct": 40.2222,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 3.7778,
+        "resistance_rate_pct": 43.5556,
+        "treated_infection_rate_pct": 3.7778,
+        "treated_resistance_rate_pct": 43.5556,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 3.3777999999999997,
+        "std": 0.5533277554939748,
+        "ci95": 0.48501316224778884,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 41.82222,
+        "std": 2.1105157644519035,
+        "ci95": 1.8499486330245607,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 3.3777999999999997,
+        "std": 0.5533277554939748,
+        "ci95": 0.48501316224778884,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 41.82222,
+        "std": 2.1105157644519035,
+        "ci95": 1.8499486330245607,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 450.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Message Exposure Full",
+    "case_key": "message_exposure_full",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 6.6667,
+        "resistance_rate_pct": 38.4444,
+        "treated_infection_rate_pct": 6.6667,
+        "treated_resistance_rate_pct": 38.4444,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 4.4444,
+        "resistance_rate_pct": 34.6667,
+        "treated_infection_rate_pct": 4.4444,
+        "treated_resistance_rate_pct": 34.6667,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 8.6667,
+        "resistance_rate_pct": 36.0,
+        "treated_infection_rate_pct": 8.6667,
+        "treated_resistance_rate_pct": 36.0,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 8.0,
+        "resistance_rate_pct": 38.0,
+        "treated_infection_rate_pct": 8.0,
+        "treated_resistance_rate_pct": 38.0,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 8.0,
+        "resistance_rate_pct": 37.7778,
+        "treated_infection_rate_pct": 8.0,
+        "treated_resistance_rate_pct": 37.7778,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 7.1555599999999995,
+        "std": 1.6807048054313407,
+        "ci95": 1.4732027164615737,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 36.977779999999996,
+        "std": 1.5916253051519387,
+        "ci95": 1.3951210917952037,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 7.1555599999999995,
+        "std": 1.6807048054313407,
+        "ci95": 1.4732027164615737,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 36.977779999999996,
+        "std": 1.5916253051519387,
+        "ci95": 1.3951210917952037,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 450.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Cautious Role Full",
+    "case_key": "cautious_role_full",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 1.7778,
+        "resistance_rate_pct": 35.7778,
+        "treated_infection_rate_pct": 1.7778,
+        "treated_resistance_rate_pct": 35.7778,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 0.6667,
+        "resistance_rate_pct": 43.7778,
+        "treated_infection_rate_pct": 0.6667,
+        "treated_resistance_rate_pct": 43.7778,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 1.5556,
+        "resistance_rate_pct": 38.2222,
+        "treated_infection_rate_pct": 1.5556,
+        "treated_resistance_rate_pct": 38.2222,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 1.3333,
+        "resistance_rate_pct": 39.7778,
+        "treated_infection_rate_pct": 1.3333,
+        "treated_resistance_rate_pct": 39.7778,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 1.7778,
+        "resistance_rate_pct": 42.4444,
+        "treated_infection_rate_pct": 1.7778,
+        "treated_resistance_rate_pct": 42.4444,
+        "untreated_infection_rate_pct": 0.0,
+        "untreated_resistance_rate_pct": 0.0,
+        "treated_benign_user_count": 450.0,
+        "untreated_benign_user_count": 0.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 1.42224,
+        "std": 0.46080954091685217,
+        "ci95": 0.4039173716028564,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 40.0,
+        "std": 3.212622866132905,
+        "ci95": 2.8159881009794057,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 1.42224,
+        "std": 0.46080954091685217,
+        "ci95": 0.4039173716028564,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 40.0,
+        "std": 3.212622866132905,
+        "ci95": 2.8159881009794057,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 450.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Message Exposure Cov10",
+    "case_key": "message_exposure_cov10",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov10_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 9.3333,
+        "resistance_rate_pct": 32.6667,
+        "treated_infection_rate_pct": 8.8889,
+        "treated_resistance_rate_pct": 28.8889,
+        "untreated_infection_rate_pct": 9.3827,
+        "untreated_resistance_rate_pct": 33.0864,
+        "treated_benign_user_count": 45.0,
+        "untreated_benign_user_count": 405.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov10_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 7.1111,
+        "resistance_rate_pct": 34.4444,
+        "treated_infection_rate_pct": 4.4444,
+        "treated_resistance_rate_pct": 35.5556,
+        "untreated_infection_rate_pct": 7.4074,
+        "untreated_resistance_rate_pct": 34.321,
+        "treated_benign_user_count": 45.0,
+        "untreated_benign_user_count": 405.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov10_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 8.6667,
+        "resistance_rate_pct": 39.5556,
+        "treated_infection_rate_pct": 2.2222,
+        "treated_resistance_rate_pct": 24.4444,
+        "untreated_infection_rate_pct": 9.3827,
+        "untreated_resistance_rate_pct": 41.2346,
+        "treated_benign_user_count": 45.0,
+        "untreated_benign_user_count": 405.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov10_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 9.3333,
+        "resistance_rate_pct": 38.6667,
+        "treated_infection_rate_pct": 8.8889,
+        "treated_resistance_rate_pct": 44.4444,
+        "untreated_infection_rate_pct": 9.3827,
+        "untreated_resistance_rate_pct": 38.0247,
+        "treated_benign_user_count": 45.0,
+        "untreated_benign_user_count": 405.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov10_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 9.3333,
+        "resistance_rate_pct": 40.8889,
+        "treated_infection_rate_pct": 4.4444,
+        "treated_resistance_rate_pct": 53.3333,
+        "untreated_infection_rate_pct": 9.8765,
+        "untreated_resistance_rate_pct": 39.5062,
+        "treated_benign_user_count": 45.0,
+        "untreated_benign_user_count": 405.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 8.75554,
+        "std": 0.9635215763022639,
+        "ci95": 0.8445638990206481,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 37.24446,
+        "std": 3.515760950775806,
+        "ci95": 3.0817003476010054,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 5.777759999999999,
+        "std": 2.9814463307260786,
+        "ci95": 2.613352933374166,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 37.33332,
+        "std": 11.695721387199681,
+        "ci95": 10.251751802529236,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 9.0864,
+        "std": 0.9626370136245541,
+        "ci95": 0.8437885456477825,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 37.23458,
+        "std": 3.4453248311298617,
+        "ci95": 3.0199603665739465,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 45.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 405.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Message Exposure Cov25",
+    "case_key": "message_exposure_cov25",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov25_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 10.2222,
+        "resistance_rate_pct": 38.4444,
+        "treated_infection_rate_pct": 8.0357,
+        "treated_resistance_rate_pct": 41.0714,
+        "untreated_infection_rate_pct": 10.9467,
+        "untreated_resistance_rate_pct": 37.574,
+        "treated_benign_user_count": 112.0,
+        "untreated_benign_user_count": 338.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov25_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 10.2222,
+        "resistance_rate_pct": 36.2222,
+        "treated_infection_rate_pct": 4.4643,
+        "treated_resistance_rate_pct": 37.5,
+        "untreated_infection_rate_pct": 12.1302,
+        "untreated_resistance_rate_pct": 35.7988,
+        "treated_benign_user_count": 112.0,
+        "untreated_benign_user_count": 338.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov25_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 11.1111,
+        "resistance_rate_pct": 36.8889,
+        "treated_infection_rate_pct": 11.6071,
+        "treated_resistance_rate_pct": 39.2857,
+        "untreated_infection_rate_pct": 10.9467,
+        "untreated_resistance_rate_pct": 36.0947,
+        "treated_benign_user_count": 112.0,
+        "untreated_benign_user_count": 338.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov25_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 8.2222,
+        "resistance_rate_pct": 37.5556,
+        "treated_infection_rate_pct": 10.7143,
+        "treated_resistance_rate_pct": 37.5,
+        "untreated_infection_rate_pct": 7.3964,
+        "untreated_resistance_rate_pct": 37.574,
+        "treated_benign_user_count": 112.0,
+        "untreated_benign_user_count": 338.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov25_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 8.4444,
+        "resistance_rate_pct": 36.4444,
+        "treated_infection_rate_pct": 6.25,
+        "treated_resistance_rate_pct": 35.7143,
+        "untreated_infection_rate_pct": 9.1716,
+        "untreated_resistance_rate_pct": 36.6864,
+        "treated_benign_user_count": 112.0,
+        "untreated_benign_user_count": 338.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 9.64442,
+        "std": 1.253152764829572,
+        "ci95": 1.0984368291934863,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 37.1111,
+        "std": 0.9026729861915664,
+        "ci95": 0.791227758162212,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 8.21428,
+        "std": 2.9880580770794936,
+        "ci95": 2.619148384578285,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 38.21428,
+        "std": 2.036011256599529,
+        "ci95": 1.7846425525028349,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 10.11832,
+        "std": 1.8523778791056649,
+        "ci95": 1.6236808002172842,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 36.74558,
+        "std": 0.8209900742396326,
+        "ci95": 0.7196295290221475,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 112.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 338.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Message Exposure Cov50",
+    "case_key": "message_exposure_cov50",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov50_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 10.2222,
+        "resistance_rate_pct": 34.2222,
+        "treated_infection_rate_pct": 9.3333,
+        "treated_resistance_rate_pct": 36.4444,
+        "untreated_infection_rate_pct": 11.1111,
+        "untreated_resistance_rate_pct": 32.0,
+        "treated_benign_user_count": 225.0,
+        "untreated_benign_user_count": 225.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov50_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 8.4444,
+        "resistance_rate_pct": 35.5556,
+        "treated_infection_rate_pct": 7.1111,
+        "treated_resistance_rate_pct": 36.8889,
+        "untreated_infection_rate_pct": 9.7778,
+        "untreated_resistance_rate_pct": 34.2222,
+        "treated_benign_user_count": 225.0,
+        "untreated_benign_user_count": 225.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov50_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 8.2222,
+        "resistance_rate_pct": 37.7778,
+        "treated_infection_rate_pct": 6.2222,
+        "treated_resistance_rate_pct": 35.5556,
+        "untreated_infection_rate_pct": 10.2222,
+        "untreated_resistance_rate_pct": 40.0,
+        "treated_benign_user_count": 225.0,
+        "untreated_benign_user_count": 225.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov50_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 8.2222,
+        "resistance_rate_pct": 35.7778,
+        "treated_infection_rate_pct": 7.1111,
+        "treated_resistance_rate_pct": 35.1111,
+        "untreated_infection_rate_pct": 9.3333,
+        "untreated_resistance_rate_pct": 36.4444,
+        "treated_benign_user_count": 225.0,
+        "untreated_benign_user_count": 225.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov50_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 7.7778,
+        "resistance_rate_pct": 38.0,
+        "treated_infection_rate_pct": 5.7778,
+        "treated_resistance_rate_pct": 42.6667,
+        "untreated_infection_rate_pct": 9.7778,
+        "untreated_resistance_rate_pct": 33.3333,
+        "treated_benign_user_count": 225.0,
+        "untreated_benign_user_count": 225.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 8.577760000000001,
+        "std": 0.9506247461538124,
+        "ci95": 0.8332593289694152,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 36.266679999999994,
+        "std": 1.5978437633260643,
+        "ci95": 1.4005718107106966,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 7.1111,
+        "std": 1.3698544575975944,
+        "ci95": 1.200730373095975,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 37.33334,
+        "std": 3.0631348424449087,
+        "ci95": 2.68495607092633,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 10.04444,
+        "std": 0.6740319079984275,
+        "ci95": 0.5908150167930403,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 35.199980000000004,
+        "std": 3.133256815519596,
+        "ci95": 2.7464206903428035,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 225.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 225.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  },
+  {
+    "case": "Message Exposure Cov75",
+    "case_key": "message_exposure_cov75",
+    "n": 5,
+    "rows": [
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov75_seed_42_metrics.json",
+        "seed": 42,
+        "infection_rate_pct": 8.8889,
+        "resistance_rate_pct": 36.2222,
+        "treated_infection_rate_pct": 8.5799,
+        "treated_resistance_rate_pct": 36.0947,
+        "untreated_infection_rate_pct": 9.8214,
+        "untreated_resistance_rate_pct": 36.6071,
+        "treated_benign_user_count": 338.0,
+        "untreated_benign_user_count": 112.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov75_seed_52_metrics.json",
+        "seed": 52,
+        "infection_rate_pct": 6.4444,
+        "resistance_rate_pct": 35.5556,
+        "treated_infection_rate_pct": 5.6213,
+        "treated_resistance_rate_pct": 36.9822,
+        "untreated_infection_rate_pct": 8.9286,
+        "untreated_resistance_rate_pct": 31.25,
+        "treated_benign_user_count": 338.0,
+        "untreated_benign_user_count": 112.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov75_seed_62_metrics.json",
+        "seed": 62,
+        "infection_rate_pct": 7.3333,
+        "resistance_rate_pct": 34.6667,
+        "treated_infection_rate_pct": 7.1006,
+        "treated_resistance_rate_pct": 35.7988,
+        "untreated_infection_rate_pct": 8.0357,
+        "untreated_resistance_rate_pct": 31.25,
+        "treated_benign_user_count": 338.0,
+        "untreated_benign_user_count": 112.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov75_seed_72_metrics.json",
+        "seed": 72,
+        "infection_rate_pct": 6.4444,
+        "resistance_rate_pct": 34.0,
+        "treated_infection_rate_pct": 6.8047,
+        "treated_resistance_rate_pct": 33.7278,
+        "untreated_infection_rate_pct": 5.3571,
+        "untreated_resistance_rate_pct": 34.8214,
+        "treated_benign_user_count": 338.0,
+        "untreated_benign_user_count": 112.0
+      },
+      {
+        "path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_cov75_seed_82_metrics.json",
+        "seed": 82,
+        "infection_rate_pct": 10.2222,
+        "resistance_rate_pct": 34.0,
+        "treated_infection_rate_pct": 9.7633,
+        "treated_resistance_rate_pct": 35.2071,
+        "untreated_infection_rate_pct": 11.6071,
+        "untreated_resistance_rate_pct": 30.3571,
+        "treated_benign_user_count": 338.0,
+        "untreated_benign_user_count": 112.0
+      }
+    ],
+    "metrics": {
+      "infection_rate_pct": {
+        "mean": 7.866639999999999,
+        "std": 1.652548275542957,
+        "ci95": 1.4485224298439292,
+        "n_valid": 5
+      },
+      "resistance_rate_pct": {
+        "mean": 34.8889,
+        "std": 0.981304876172538,
+        "ci95": 0.860151648631333,
+        "n_valid": 5
+      },
+      "treated_infection_rate_pct": {
+        "mean": 7.57396,
+        "std": 1.6150724931098293,
+        "ci95": 1.4156734582079864,
+        "n_valid": 5
+      },
+      "treated_resistance_rate_pct": {
+        "mean": 35.56212,
+        "std": 1.2090342373150558,
+        "ci95": 1.0597652347703423,
+        "n_valid": 5
+      },
+      "untreated_infection_rate_pct": {
+        "mean": 8.74998,
+        "std": 2.311104239752072,
+        "ci95": 2.0257721838040528,
+        "n_valid": 5
+      },
+      "untreated_resistance_rate_pct": {
+        "mean": 32.857119999999995,
+        "std": 2.7081596753145862,
+        "ci95": 2.373806618147452,
+        "n_valid": 5
+      },
+      "treated_benign_user_count": {
+        "mean": 338.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      },
+      "untreated_benign_user_count": {
+        "mean": 112.0,
+        "std": 0.0,
+        "ci95": 0.0,
+        "n_valid": 5
+      }
+    }
+  }
+]

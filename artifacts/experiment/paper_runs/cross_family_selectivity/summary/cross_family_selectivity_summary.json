@@ -1,0 +1,1561 @@
+{
+  "label": "cross_family_selectivity",
+  "reference_condition": "no_defense",
+  "raw_rows": [
+    {
+      "condition": "cautious_role_full",
+      "seed": 42,
+      "label": "main_500_ablation_cautious_role_full_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_cautious_role_full_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_cautious_role_full_seed_42.db",
+      "malicious_ir_pct": 1.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 129,
+      "disagreement_user_count": 115,
+      "benign_support_pct": 28.666666666666668,
+      "benign_disagreement_pct": 25.555555555555557
+    },
+    {
+      "condition": "counter",
+      "seed": 42,
+      "label": "main_500_variant_counter_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_counter_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_counter_seed_42.db",
+      "malicious_ir_pct": 0.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 455,
+      "support_user_count": 65,
+      "disagreement_user_count": 151,
+      "benign_support_pct": 14.444444444444445,
+      "benign_disagreement_pct": 33.55555555555556
+    },
+    {
+      "condition": "emotional",
+      "seed": 42,
+      "label": "main_500_variant_emotional_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_emotional_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_emotional_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_emotional_seed_42.db",
+      "malicious_ir_pct": 4.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 473,
+      "support_user_count": 140,
+      "disagreement_user_count": 114,
+      "benign_support_pct": 31.11111111111111,
+      "benign_disagreement_pct": 25.333333333333332
+    },
+    {
+      "condition": "fact",
+      "seed": 42,
+      "label": "main_500_variant_fact_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_fact_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_42.db",
+      "malicious_ir_pct": 2.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 459,
+      "support_user_count": 115,
+      "disagreement_user_count": 133,
+      "benign_support_pct": 25.555555555555557,
+      "benign_disagreement_pct": 29.555555555555557
+    },
+    {
+      "condition": "generic",
+      "seed": 42,
+      "label": "main_500_variant_generic_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_42.db",
+      "malicious_ir_pct": 2.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 136,
+      "disagreement_user_count": 109,
+      "benign_support_pct": 30.22222222222222,
+      "benign_disagreement_pct": 24.22222222222222
+    },
+    {
+      "condition": "logic",
+      "seed": 42,
+      "label": "main_500_variant_logic_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_logic_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_logic_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_logic_seed_42.db",
+      "malicious_ir_pct": 1.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 120,
+      "disagreement_user_count": 101,
+      "benign_support_pct": 26.666666666666668,
+      "benign_disagreement_pct": 22.444444444444443
+    },
+    {
+      "condition": "message_exposure_full",
+      "seed": 42,
+      "label": "main_500_ablation_message_exposure_full_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_message_exposure_full_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_message_exposure_full_seed_42.db",
+      "malicious_ir_pct": 6.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 459,
+      "support_user_count": 146,
+      "disagreement_user_count": 85,
+      "benign_support_pct": 32.44444444444444,
+      "benign_disagreement_pct": 18.88888888888889
+    },
+    {
+      "condition": "no_defense",
+      "seed": 42,
+      "label": "main_500_seed_42_no_defense",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_42_no_defense_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_42_no_defense.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_42_no_defense.db",
+      "malicious_ir_pct": 9.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 460,
+      "support_user_count": 164,
+      "disagreement_user_count": 98,
+      "benign_support_pct": 36.44444444444444,
+      "benign_disagreement_pct": 21.77777777777778
+    },
+    {
+      "condition": "prebunking",
+      "seed": 42,
+      "label": "main_500_seed_42_prebunking",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_42_prebunking_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_42_prebunking.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_42_prebunking.db",
+      "malicious_ir_pct": 4.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 468,
+      "support_user_count": 147,
+      "disagreement_user_count": 104,
+      "benign_support_pct": 32.666666666666664,
+      "benign_disagreement_pct": 23.11111111111111
+    },
+    {
+      "condition": "role_rewrite_full",
+      "seed": 42,
+      "label": "main_500_ablation_role_rewrite_full_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_role_rewrite_full_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_role_rewrite_full_seed_42.db",
+      "malicious_ir_pct": 2.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 460,
+      "support_user_count": 141,
+      "disagreement_user_count": 96,
+      "benign_support_pct": 31.333333333333332,
+      "benign_disagreement_pct": 21.333333333333332
+    },
+    {
+      "condition": "technical",
+      "seed": 42,
+      "label": "main_500_variant_technical_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_technical_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_technical_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_technical_seed_42.db",
+      "malicious_ir_pct": 2.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 459,
+      "support_user_count": 118,
+      "disagreement_user_count": 116,
+      "benign_support_pct": 26.22222222222222,
+      "benign_disagreement_pct": 25.77777777777778
+    },
+    {
+      "condition": "timing_t1",
+      "seed": 42,
+      "label": "main_500_timing_t1_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t1_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t1_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t1_seed_42.db",
+      "malicious_ir_pct": 3.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 467,
+      "support_user_count": 130,
+      "disagreement_user_count": 122,
+      "benign_support_pct": 28.88888888888889,
+      "benign_disagreement_pct": 27.11111111111111
+    },
+    {
+      "condition": "timing_t3",
+      "seed": 42,
+      "label": "main_500_timing_t3_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t3_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t3_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t3_seed_42.db",
+      "malicious_ir_pct": 6.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 140,
+      "disagreement_user_count": 109,
+      "benign_support_pct": 31.11111111111111,
+      "benign_disagreement_pct": 24.22222222222222
+    },
+    {
+      "condition": "timing_t6",
+      "seed": 42,
+      "label": "main_500_timing_t6_seed_42",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t6_seed_42_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t6_seed_42.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t6_seed_42.db",
+      "malicious_ir_pct": 6.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 460,
+      "support_user_count": 152,
+      "disagreement_user_count": 90,
+      "benign_support_pct": 33.77777777777778,
+      "benign_disagreement_pct": 20.0
+    },
+    {
+      "condition": "cautious_role_full",
+      "seed": 52,
+      "label": "main_500_ablation_cautious_role_full_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_cautious_role_full_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_cautious_role_full_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_cautious_role_full_seed_52.db",
+      "malicious_ir_pct": 0.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 465,
+      "support_user_count": 120,
+      "disagreement_user_count": 93,
+      "benign_support_pct": 26.666666666666668,
+      "benign_disagreement_pct": 20.666666666666668
+    },
+    {
+      "condition": "counter",
+      "seed": 52,
+      "label": "main_500_variant_counter_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_counter_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_counter_seed_52.db",
+      "malicious_ir_pct": 1.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 457,
+      "support_user_count": 80,
+      "disagreement_user_count": 131,
+      "benign_support_pct": 17.77777777777778,
+      "benign_disagreement_pct": 29.11111111111111
+    },
+    {
+      "condition": "emotional",
+      "seed": 52,
+      "label": "main_500_variant_emotional_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_emotional_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_emotional_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_emotional_seed_52.db",
+      "malicious_ir_pct": 5.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 466,
+      "support_user_count": 134,
+      "disagreement_user_count": 102,
+      "benign_support_pct": 29.77777777777778,
+      "benign_disagreement_pct": 22.666666666666668
+    },
+    {
+      "condition": "fact",
+      "seed": 52,
+      "label": "main_500_variant_fact_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_fact_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_52.db",
+      "malicious_ir_pct": 2.4444,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 103,
+      "disagreement_user_count": 123,
+      "benign_support_pct": 22.88888888888889,
+      "benign_disagreement_pct": 27.333333333333332
+    },
+    {
+      "condition": "generic",
+      "seed": 52,
+      "label": "main_500_variant_generic_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_52.db",
+      "malicious_ir_pct": 5.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 462,
+      "support_user_count": 124,
+      "disagreement_user_count": 130,
+      "benign_support_pct": 27.555555555555557,
+      "benign_disagreement_pct": 28.88888888888889
+    },
+    {
+      "condition": "logic",
+      "seed": 52,
+      "label": "main_500_variant_logic_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_logic_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_logic_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_logic_seed_52.db",
+      "malicious_ir_pct": 3.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 466,
+      "support_user_count": 138,
+      "disagreement_user_count": 94,
+      "benign_support_pct": 30.666666666666668,
+      "benign_disagreement_pct": 20.88888888888889
+    },
+    {
+      "condition": "message_exposure_full",
+      "seed": 52,
+      "label": "main_500_ablation_message_exposure_full_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_message_exposure_full_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_message_exposure_full_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_message_exposure_full_seed_52.db",
+      "malicious_ir_pct": 4.4444,
+      "benign_user_count": 450,
+      "benign_root_post_count": 459,
+      "support_user_count": 151,
+      "disagreement_user_count": 113,
+      "benign_support_pct": 33.55555555555556,
+      "benign_disagreement_pct": 25.11111111111111
+    },
+    {
+      "condition": "no_defense",
+      "seed": 52,
+      "label": "main_500_seed_52_no_defense",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_52_no_defense_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_52_no_defense.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_52_no_defense.db",
+      "malicious_ir_pct": 11.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 462,
+      "support_user_count": 187,
+      "disagreement_user_count": 90,
+      "benign_support_pct": 41.55555555555556,
+      "benign_disagreement_pct": 20.0
+    },
+    {
+      "condition": "prebunking",
+      "seed": 52,
+      "label": "main_500_seed_52_prebunking",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_52_prebunking_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_52_prebunking.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_52_prebunking.db",
+      "malicious_ir_pct": 5.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 458,
+      "support_user_count": 130,
+      "disagreement_user_count": 137,
+      "benign_support_pct": 28.88888888888889,
+      "benign_disagreement_pct": 30.444444444444443
+    },
+    {
+      "condition": "role_rewrite_full",
+      "seed": 52,
+      "label": "main_500_ablation_role_rewrite_full_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/metrics/main_500_ablation_role_rewrite_full_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_role_rewrite_full_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_role_rewrite_full_seed_52.db",
+      "malicious_ir_pct": 3.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 468,
+      "support_user_count": 118,
+      "disagreement_user_count": 116,
+      "benign_support_pct": 26.22222222222222,
+      "benign_disagreement_pct": 25.77777777777778
+    },
+    {
+      "condition": "technical",
+      "seed": 52,
+      "label": "main_500_variant_technical_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_technical_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_technical_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_technical_seed_52.db",
+      "malicious_ir_pct": 3.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 467,
+      "support_user_count": 158,
+      "disagreement_user_count": 130,
+      "benign_support_pct": 35.111111111111114,
+      "benign_disagreement_pct": 28.88888888888889
+    },
+    {
+      "condition": "timing_t1",
+      "seed": 52,
+      "label": "main_500_timing_t1_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t1_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t1_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t1_seed_52.db",
+      "malicious_ir_pct": 3.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 145,
+      "disagreement_user_count": 127,
+      "benign_support_pct": 32.22222222222222,
+      "benign_disagreement_pct": 28.22222222222222
+    },
+    {
+      "condition": "timing_t3",
+      "seed": 52,
+      "label": "main_500_timing_t3_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t3_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t3_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t3_seed_52.db",
+      "malicious_ir_pct": 7.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 149,
+      "disagreement_user_count": 97,
+      "benign_support_pct": 33.111111111111114,
+      "benign_disagreement_pct": 21.555555555555557
+    },
+    {
+      "condition": "timing_t6",
+      "seed": 52,
+      "label": "main_500_timing_t6_seed_52",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t6_seed_52_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t6_seed_52.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t6_seed_52.db",
+      "malicious_ir_pct": 8.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 465,
+      "support_user_count": 186,
+      "disagreement_user_count": 82,
+      "benign_support_pct": 41.333333333333336,
+      "benign_disagreement_pct": 18.22222222222222
+    },
+    {
+      "condition": "counter",
+      "seed": 62,
+      "label": "main_500_variant_counter_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_counter_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_counter_seed_62.db",
+      "malicious_ir_pct": 0.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 450,
+      "support_user_count": 0,
+      "disagreement_user_count": 0,
+      "benign_support_pct": 0.0,
+      "benign_disagreement_pct": 0.0
+    },
+    {
+      "condition": "emotional",
+      "seed": 62,
+      "label": "main_500_variant_emotional_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_emotional_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_emotional_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_emotional_seed_62.db",
+      "malicious_ir_pct": 4.4444,
+      "benign_user_count": 450,
+      "benign_root_post_count": 466,
+      "support_user_count": 165,
+      "disagreement_user_count": 109,
+      "benign_support_pct": 36.666666666666664,
+      "benign_disagreement_pct": 24.22222222222222
+    },
+    {
+      "condition": "fact",
+      "seed": 62,
+      "label": "main_500_variant_fact_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_fact_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_62.db",
+      "malicious_ir_pct": 4.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 457,
+      "support_user_count": 134,
+      "disagreement_user_count": 110,
+      "benign_support_pct": 29.77777777777778,
+      "benign_disagreement_pct": 24.444444444444443
+    },
+    {
+      "condition": "generic",
+      "seed": 62,
+      "label": "main_500_variant_generic_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_62.db",
+      "malicious_ir_pct": 0.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 450,
+      "support_user_count": 0,
+      "disagreement_user_count": 0,
+      "benign_support_pct": 0.0,
+      "benign_disagreement_pct": 0.0
+    },
+    {
+      "condition": "logic",
+      "seed": 62,
+      "label": "main_500_variant_logic_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_logic_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_logic_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_logic_seed_62.db",
+      "malicious_ir_pct": 3.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 467,
+      "support_user_count": 139,
+      "disagreement_user_count": 117,
+      "benign_support_pct": 30.88888888888889,
+      "benign_disagreement_pct": 26.0
+    },
+    {
+      "condition": "no_defense",
+      "seed": 62,
+      "label": "main_500_seed_62_no_defense",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_62_no_defense_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_62_no_defense.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_62_no_defense.db",
+      "malicious_ir_pct": 10.4444,
+      "benign_user_count": 450,
+      "benign_root_post_count": 464,
+      "support_user_count": 171,
+      "disagreement_user_count": 93,
+      "benign_support_pct": 38.0,
+      "benign_disagreement_pct": 20.666666666666668
+    },
+    {
+      "condition": "prebunking",
+      "seed": 62,
+      "label": "main_500_seed_62_prebunking",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_62_prebunking_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_62_prebunking.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_62_prebunking.db",
+      "malicious_ir_pct": 5.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 473,
+      "support_user_count": 151,
+      "disagreement_user_count": 107,
+      "benign_support_pct": 33.55555555555556,
+      "benign_disagreement_pct": 23.77777777777778
+    },
+    {
+      "condition": "technical",
+      "seed": 62,
+      "label": "main_500_variant_technical_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_technical_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_technical_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_technical_seed_62.db",
+      "malicious_ir_pct": 2.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 469,
+      "support_user_count": 147,
+      "disagreement_user_count": 127,
+      "benign_support_pct": 32.666666666666664,
+      "benign_disagreement_pct": 28.22222222222222
+    },
+    {
+      "condition": "timing_t1",
+      "seed": 62,
+      "label": "main_500_timing_t1_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t1_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t1_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t1_seed_62.db",
+      "malicious_ir_pct": 5.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 151,
+      "disagreement_user_count": 128,
+      "benign_support_pct": 33.55555555555556,
+      "benign_disagreement_pct": 28.444444444444443
+    },
+    {
+      "condition": "timing_t3",
+      "seed": 62,
+      "label": "main_500_timing_t3_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t3_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t3_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t3_seed_62.db",
+      "malicious_ir_pct": 10.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 462,
+      "support_user_count": 159,
+      "disagreement_user_count": 118,
+      "benign_support_pct": 35.333333333333336,
+      "benign_disagreement_pct": 26.22222222222222
+    },
+    {
+      "condition": "timing_t6",
+      "seed": 62,
+      "label": "main_500_timing_t6_seed_62",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t6_seed_62_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t6_seed_62.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t6_seed_62.db",
+      "malicious_ir_pct": 10.8889,
+      "benign_user_count": 450,
+      "benign_root_post_count": 464,
+      "support_user_count": 148,
+      "disagreement_user_count": 103,
+      "benign_support_pct": 32.888888888888886,
+      "benign_disagreement_pct": 22.88888888888889
+    },
+    {
+      "condition": "counter",
+      "seed": 72,
+      "label": "main_500_variant_counter_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_counter_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_counter_seed_72.db",
+      "malicious_ir_pct": 0.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 450,
+      "support_user_count": 0,
+      "disagreement_user_count": 0,
+      "benign_support_pct": 0.0,
+      "benign_disagreement_pct": 0.0
+    },
+    {
+      "condition": "emotional",
+      "seed": 72,
+      "label": "main_500_variant_emotional_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_emotional_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_emotional_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_emotional_seed_72.db",
+      "malicious_ir_pct": 4.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 464,
+      "support_user_count": 162,
+      "disagreement_user_count": 108,
+      "benign_support_pct": 36.0,
+      "benign_disagreement_pct": 24.0
+    },
+    {
+      "condition": "fact",
+      "seed": 72,
+      "label": "main_500_variant_fact_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_fact_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_72.db",
+      "malicious_ir_pct": 1.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 460,
+      "support_user_count": 144,
+      "disagreement_user_count": 115,
+      "benign_support_pct": 32.0,
+      "benign_disagreement_pct": 25.555555555555557
+    },
+    {
+      "condition": "generic",
+      "seed": 72,
+      "label": "main_500_variant_generic_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_72.db",
+      "malicious_ir_pct": 0.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 450,
+      "support_user_count": 0,
+      "disagreement_user_count": 0,
+      "benign_support_pct": 0.0,
+      "benign_disagreement_pct": 0.0
+    },
+    {
+      "condition": "logic",
+      "seed": 72,
+      "label": "main_500_variant_logic_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_logic_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_logic_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_logic_seed_72.db",
+      "malicious_ir_pct": 4.0,
+      "benign_user_count": 450,
+      "benign_root_post_count": 465,
+      "support_user_count": 139,
+      "disagreement_user_count": 101,
+      "benign_support_pct": 30.88888888888889,
+      "benign_disagreement_pct": 22.444444444444443
+    },
+    {
+      "condition": "no_defense",
+      "seed": 72,
+      "label": "main_500_seed_72_no_defense",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_72_no_defense_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_72_no_defense.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_72_no_defense.db",
+      "malicious_ir_pct": 7.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 472,
+      "support_user_count": 180,
+      "disagreement_user_count": 96,
+      "benign_support_pct": 40.0,
+      "benign_disagreement_pct": 21.333333333333332
+    },
+    {
+      "condition": "prebunking",
+      "seed": 72,
+      "label": "main_500_seed_72_prebunking",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_72_prebunking_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_72_prebunking.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_72_prebunking.db",
+      "malicious_ir_pct": 3.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 464,
+      "support_user_count": 131,
+      "disagreement_user_count": 119,
+      "benign_support_pct": 29.11111111111111,
+      "benign_disagreement_pct": 26.444444444444443
+    },
+    {
+      "condition": "technical",
+      "seed": 72,
+      "label": "main_500_variant_technical_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_technical_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_technical_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_technical_seed_72.db",
+      "malicious_ir_pct": 3.1111,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 152,
+      "disagreement_user_count": 142,
+      "benign_support_pct": 33.77777777777778,
+      "benign_disagreement_pct": 31.555555555555557
+    },
+    {
+      "condition": "timing_t1",
+      "seed": 72,
+      "label": "main_500_timing_t1_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t1_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t1_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t1_seed_72.db",
+      "malicious_ir_pct": 5.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 133,
+      "disagreement_user_count": 110,
+      "benign_support_pct": 29.555555555555557,
+      "benign_disagreement_pct": 24.444444444444443
+    },
+    {
+      "condition": "timing_t3",
+      "seed": 72,
+      "label": "main_500_timing_t3_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t3_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t3_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t3_seed_72.db",
+      "malicious_ir_pct": 5.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 140,
+      "disagreement_user_count": 101,
+      "benign_support_pct": 31.11111111111111,
+      "benign_disagreement_pct": 22.444444444444443
+    },
+    {
+      "condition": "timing_t6",
+      "seed": 72,
+      "label": "main_500_timing_t6_seed_72",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t6_seed_72_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t6_seed_72.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t6_seed_72.db",
+      "malicious_ir_pct": 5.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 459,
+      "support_user_count": 142,
+      "disagreement_user_count": 118,
+      "benign_support_pct": 31.555555555555557,
+      "benign_disagreement_pct": 26.22222222222222
+    },
+    {
+      "condition": "counter",
+      "seed": 82,
+      "label": "main_500_variant_counter_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_counter_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_counter_seed_82.db",
+      "malicious_ir_pct": 0.2222,
+      "benign_user_count": 450,
+      "benign_root_post_count": 458,
+      "support_user_count": 77,
+      "disagreement_user_count": 135,
+      "benign_support_pct": 17.11111111111111,
+      "benign_disagreement_pct": 30.0
+    },
+    {
+      "condition": "emotional",
+      "seed": 82,
+      "label": "main_500_variant_emotional_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_emotional_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_emotional_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_emotional_seed_82.db",
+      "malicious_ir_pct": 3.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 456,
+      "support_user_count": 67,
+      "disagreement_user_count": 42,
+      "benign_support_pct": 14.88888888888889,
+      "benign_disagreement_pct": 9.333333333333334
+    },
+    {
+      "condition": "fact",
+      "seed": 82,
+      "label": "main_500_variant_fact_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_fact_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_fact_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_fact_seed_82.db",
+      "malicious_ir_pct": 2.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 457,
+      "support_user_count": 136,
+      "disagreement_user_count": 125,
+      "benign_support_pct": 30.22222222222222,
+      "benign_disagreement_pct": 27.77777777777778
+    },
+    {
+      "condition": "generic",
+      "seed": 82,
+      "label": "main_500_variant_generic_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/csv/main_500_variant_generic_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_variant_multiseed/db/main_500_variant_generic_seed_82.db",
+      "malicious_ir_pct": 1.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 455,
+      "support_user_count": 53,
+      "disagreement_user_count": 55,
+      "benign_support_pct": 11.777777777777779,
+      "benign_disagreement_pct": 12.222222222222221
+    },
+    {
+      "condition": "logic",
+      "seed": 82,
+      "label": "main_500_variant_logic_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_logic_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_logic_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_logic_seed_82.db",
+      "malicious_ir_pct": 1.7778,
+      "benign_user_count": 450,
+      "benign_root_post_count": 458,
+      "support_user_count": 137,
+      "disagreement_user_count": 117,
+      "benign_support_pct": 30.444444444444443,
+      "benign_disagreement_pct": 26.0
+    },
+    {
+      "condition": "no_defense",
+      "seed": 82,
+      "label": "main_500_seed_82_no_defense",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_82_no_defense_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_82_no_defense.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_82_no_defense.db",
+      "malicious_ir_pct": 12.6667,
+      "benign_user_count": 450,
+      "benign_root_post_count": 454,
+      "support_user_count": 141,
+      "disagreement_user_count": 79,
+      "benign_support_pct": 31.333333333333332,
+      "benign_disagreement_pct": 17.555555555555557
+    },
+    {
+      "condition": "prebunking",
+      "seed": 82,
+      "label": "main_500_seed_82_prebunking",
+      "metrics_path": "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_82_prebunking_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/main_500_multiseed/csv/main_500_seed_82_prebunking.csv",
+      "db_path": "artifacts/experiment/paper_runs/main_500_multiseed/db/main_500_seed_82_prebunking.db",
+      "malicious_ir_pct": 4.4444,
+      "benign_user_count": 450,
+      "benign_root_post_count": 468,
+      "support_user_count": 136,
+      "disagreement_user_count": 118,
+      "benign_support_pct": 30.22222222222222,
+      "benign_disagreement_pct": 26.22222222222222
+    },
+    {
+      "condition": "technical",
+      "seed": 82,
+      "label": "main_500_variant_technical_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/metrics/main_500_variant_technical_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/csv/main_500_variant_technical_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_content_multiseed/db/main_500_variant_technical_seed_82.db",
+      "malicious_ir_pct": 3.5556,
+      "benign_user_count": 450,
+      "benign_root_post_count": 461,
+      "support_user_count": 145,
+      "disagreement_user_count": 100,
+      "benign_support_pct": 32.22222222222222,
+      "benign_disagreement_pct": 22.22222222222222
+    },
+    {
+      "condition": "timing_t1",
+      "seed": 82,
+      "label": "main_500_timing_t1_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t1_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t1_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t1_seed_82.db",
+      "malicious_ir_pct": 3.3333,
+      "benign_user_count": 450,
+      "benign_root_post_count": 463,
+      "support_user_count": 133,
+      "disagreement_user_count": 118,
+      "benign_support_pct": 29.555555555555557,
+      "benign_disagreement_pct": 26.22222222222222
+    },
+    {
+      "condition": "timing_t3",
+      "seed": 82,
+      "label": "main_500_timing_t3_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t3_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t3_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t3_seed_82.db",
+      "malicious_ir_pct": 6.8889,
+      "benign_user_count": 450,
+      "benign_root_post_count": 468,
+      "support_user_count": 159,
+      "disagreement_user_count": 108,
+      "benign_support_pct": 35.333333333333336,
+      "benign_disagreement_pct": 24.0
+    },
+    {
+      "condition": "timing_t6",
+      "seed": 82,
+      "label": "main_500_timing_t6_seed_82",
+      "metrics_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/metrics/main_500_timing_t6_seed_82_metrics.json",
+      "csv_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/csv/main_500_timing_t6_seed_82.csv",
+      "db_path": "artifacts/experiment/paper_runs/prebunking_timing_multiseed/db/main_500_timing_t6_seed_82.db",
+      "malicious_ir_pct": 6.8889,
+      "benign_user_count": 450,
+      "benign_root_post_count": 467,
+      "support_user_count": 152,
+      "disagreement_user_count": 114,
+      "benign_support_pct": 33.77777777777778,
+      "benign_disagreement_pct": 25.333333333333332
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "no_defense",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 10.35556,
+          "std": 2.0160120766007332,
+          "ci95": 1.7671124983219828
+        },
+        "benign_support_pct": {
+          "mean": 37.46666666666667,
+          "std": 3.939668470102655,
+          "ci95": 3.453271671121157
+        },
+        "benign_disagreement_pct": {
+          "mean": 20.26666666666667,
+          "std": 1.6584985028484698,
+          "ci95": 1.4537380340367163
+        }
+      }
+    },
+    {
+      "condition": "prebunking",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 4.57778,
+          "std": 1.0256268190721223,
+          "ci95": 0.8990015445009201
+        },
+        "benign_support_pct": {
+          "mean": 30.888888888888893,
+          "std": 2.1140330656044943,
+          "ci95": 1.8530316834185774
+        },
+        "benign_disagreement_pct": {
+          "mean": 26.0,
+          "std": 2.8846122190549255,
+          "ci95": 2.528474092129064
+        }
+      }
+    },
+    {
+      "condition": "message_exposure_full",
+      "n": 2,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 5.55555,
+          "std": 1.5714033998308643,
+          "ci95": 2.1778539999999995
+        },
+        "benign_support_pct": {
+          "mean": 33.0,
+          "std": 0.7856742013183884,
+          "ci95": 1.088888888888892
+        },
+        "benign_disagreement_pct": {
+          "mean": 22.0,
+          "std": 4.399775527382961,
+          "ci95": 6.097777777777775
+        }
+      }
+    },
+    {
+      "condition": "cautious_role_full",
+      "n": 2,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 1.22225,
+          "std": 0.7856663445763731,
+          "ci95": 1.088878
+        },
+        "benign_support_pct": {
+          "mean": 27.666666666666668,
+          "std": 1.4142135623730951,
+          "ci95": 1.9599999999999997
+        },
+        "benign_disagreement_pct": {
+          "mean": 23.111111111111114,
+          "std": 3.456966485800899,
+          "ci95": 4.791111111111111
+        }
+      }
+    },
+    {
+      "condition": "role_rewrite_full",
+      "n": 2,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 3.22225,
+          "std": 0.785666344576373,
+          "ci95": 1.0888779999999998
+        },
+        "benign_support_pct": {
+          "mean": 28.77777777777778,
+          "std": 3.614101326064576,
+          "ci95": 5.008888888888888
+        },
+        "benign_disagreement_pct": {
+          "mean": 23.555555555555557,
+          "std": 3.142696805273546,
+          "ci95": 4.355555555555557
+        }
+      }
+    },
+    {
+      "condition": "timing_t1",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 4.22222,
+          "std": 0.9296069798576173,
+          "ci95": 0.8148364445334048
+        },
+        "benign_support_pct": {
+          "mean": 30.755555555555553,
+          "std": 2.022100118413747,
+          "ci95": 1.7724489022567367
+        },
+        "benign_disagreement_pct": {
+          "mean": 26.888888888888886,
+          "std": 1.632993161855452,
+          "ci95": 1.431381616946834
+        }
+      }
+    },
+    {
+      "condition": "timing_t3",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 7.24444,
+          "std": 1.781952806052955,
+          "ci95": 1.561950501956115
+        },
+        "benign_support_pct": {
+          "mean": 33.2,
+          "std": 2.111695825458597,
+          "ci95": 1.8509830021029579
+        },
+        "benign_disagreement_pct": {
+          "mean": 23.68888888888889,
+          "std": 1.795742564518837,
+          "ci95": 1.574037758186737
+        }
+      }
+    },
+    {
+      "condition": "timing_t6",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 7.55556,
+          "std": 2.096437307195233,
+          "ci95": 1.8376083211464187
+        },
+        "benign_support_pct": {
+          "mean": 34.66666666666667,
+          "std": 3.8361503336960165,
+          "ci95": 3.3625340238766954
+        },
+        "benign_disagreement_pct": {
+          "mean": 22.53333333333333,
+          "std": 3.412395704551927,
+          "ci95": 2.9910967145105074
+        }
+      }
+    },
+    {
+      "condition": "fact",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 2.71112,
+          "std": 0.8073697585369419,
+          "ci95": 0.7076907959219477
+        },
+        "benign_support_pct": {
+          "mean": 28.088888888888892,
+          "std": 3.7469329020999966,
+          "ci95": 3.2843314970806534
+        },
+        "benign_disagreement_pct": {
+          "mean": 26.93333333333333,
+          "std": 1.990098949087833,
+          "ci95": 1.7443986405876246
+        }
+      }
+    },
+    {
+      "condition": "logic",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 2.8889,
+          "std": 1.1439416374972982,
+          "ci95": 1.0027090553846612
+        },
+        "benign_support_pct": {
+          "mean": 29.911111111111108,
+          "std": 1.823035049066105,
+          "ci95": 1.5979606756699782
+        },
+        "benign_disagreement_pct": {
+          "mean": 23.555555555555554,
+          "std": 2.3200681130912337,
+          "ci95": 2.033629365214254
+        }
+      }
+    },
+    {
+      "condition": "technical",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 2.8889,
+          "std": 0.5879520856328345,
+          "ci95": 0.5153627257472158
+        },
+        "benign_support_pct": {
+          "mean": 32.0,
+          "std": 3.417456999828823,
+          "ci95": 2.995533135425496
+        },
+        "benign_disagreement_pct": {
+          "mean": 27.333333333333332,
+          "std": 3.520662115056636,
+          "ci95": 3.085996407509331
+        }
+      }
+    },
+    {
+      "condition": "emotional",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 4.2222,
+          "std": 0.6478873551783522,
+          "ci95": 0.5678983058330076
+        },
+        "benign_support_pct": {
+          "mean": 29.68888888888889,
+          "std": 8.79758664999655,
+          "ci95": 7.711424700636079
+        },
+        "benign_disagreement_pct": {
+          "mean": 21.11111111111111,
+          "std": 6.651835354264784,
+          "ci95": 5.830590762690801
+        }
+      }
+    },
+    {
+      "condition": "generic",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 1.8666800000000001,
+          "std": 2.280366442482436,
+          "ci95": 1.9988293165680355
+        },
+        "benign_support_pct": {
+          "mean": 13.911111111111111,
+          "std": 14.524224124535984,
+          "ci95": 12.731043765458692
+        },
+        "benign_disagreement_pct": {
+          "mean": 13.066666666666666,
+          "std": 13.388220361364107,
+          "ci95": 11.73529256369672
+        }
+      }
+    },
+    {
+      "condition": "counter",
+      "n": 5,
+      "metrics": {
+        "malicious_ir_pct": {
+          "mean": 0.4,
+          "std": 0.48176886055451945,
+          "ci95": 0.4222890252838688
+        },
+        "benign_support_pct": {
+          "mean": 9.866666666666667,
+          "std": 9.092935801020564,
+          "ci95": 7.9703096459204055
+        },
+        "benign_disagreement_pct": {
+          "mean": 18.533333333333335,
+          "std": 17.000072621486137,
+          "ci95": 14.901220657597811
+        }
+      }
+    }
+  ],
+  "paired_deltas": {
+    "prebunking": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -5.77778,
+          "delta_std": 1.5235270171546025,
+          "delta_ci95": 1.3354303105587502
+        },
+        "benign_support_pct": {
+          "delta_mean": -6.5777777777777775,
+          "delta_std": 4.948125970231958,
+          "delta_ci95": 4.337223644022937
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 5.7333333333333325,
+          "delta_std": 3.788872596902085,
+          "delta_ci95": 3.3210932604256147
+        }
+      }
+    },
+    "message_exposure_full": {
+      "shared_n": 2,
+      "shared_seeds": [
+        42,
+        52
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -5.11115,
+          "delta_std": 2.8284978354243093,
+          "delta_ci95": 3.9200980000000003
+        },
+        "benign_support_pct": {
+          "delta_mean": -6.0,
+          "delta_std": 2.8284271247461903,
+          "delta_ci95": 3.9199999999999995
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 1.1111111111111107,
+          "delta_std": 5.656854249492381,
+          "delta_ci95": 7.839999999999999
+        }
+      }
+    },
+    "cautious_role_full": {
+      "shared_n": 2,
+      "shared_seeds": [
+        42,
+        52
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -9.44445,
+          "delta_std": 2.0427607801698175,
+          "delta_ci95": 2.831122
+        },
+        "benign_support_pct": {
+          "delta_mean": -11.333333333333332,
+          "delta_std": 5.028314888437674,
+          "delta_ci95": 6.968888888888892
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 2.222222222222223,
+          "delta_std": 2.1998877636914806,
+          "delta_ci95": 3.0488888888888876
+        }
+      }
+    },
+    "role_rewrite_full": {
+      "shared_n": 2,
+      "shared_seeds": [
+        42,
+        52
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -7.44445,
+          "delta_std": 0.4714280910170722,
+          "delta_ci95": 0.6533660000000013
+        },
+        "benign_support_pct": {
+          "delta_mean": -10.222222222222223,
+          "delta_std": 7.228202652129155,
+          "delta_ci95": 10.017777777777779
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 2.666666666666666,
+          "delta_std": 4.399775527382965,
+          "delta_ci95": 6.097777777777781
+        }
+      }
+    },
+    "timing_t1": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -6.13334,
+          "delta_std": 2.8047792547721118,
+          "delta_ci95": 2.458497413616244
+        },
+        "benign_support_pct": {
+          "delta_mean": -6.71111111111111,
+          "delta_std": 3.570800650267475,
+          "delta_ci95": 3.1299447713346225
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 6.62222222222222,
+          "delta_std": 2.3486271272205057,
+          "delta_ci95": 2.058662444823918
+        }
+      }
+    },
+    "timing_t3": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -3.11112,
+          "delta_std": 2.006189804579816,
+          "delta_ci95": 1.7585028972925352
+        },
+        "benign_support_pct": {
+          "delta_mean": -4.266666666666665,
+          "delta_std": 5.264368931497259,
+          "delta_ci95": 4.614422821470596
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 3.4222222222222216,
+          "delta_std": 2.4221202832779922,
+          "delta_ci95": 2.12308203641153
+        }
+      }
+    },
+    "timing_t6": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -2.8,
+          "delta_std": 2.3549661218369997,
+          "delta_ci95": 2.0642188185895405
+        },
+        "benign_support_pct": {
+          "delta_mean": -2.7999999999999994,
+          "delta_std": 4.223976243853886,
+          "delta_ci95": 3.7024784225077947
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 2.2666666666666657,
+          "delta_std": 4.182267091505677,
+          "delta_ci95": 3.665918738533475
+        }
+      }
+    },
+    "fact": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -7.64444,
+          "delta_std": 1.8566277017754529,
+          "delta_ci95": 1.6274059340310147
+        },
+        "benign_support_pct": {
+          "delta_mean": -9.377777777777776,
+          "delta_std": 6.327287562710784,
+          "delta_ci95": 5.546112080536828
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 6.666666666666666,
+          "delta_std": 2.675909906398288,
+          "delta_ci95": 2.3455384493296947
+        }
+      }
+    },
+    "logic": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -7.46666,
+          "delta_std": 2.7648833615543347,
+          "delta_ci95": 2.423527121347099
+        },
+        "benign_support_pct": {
+          "delta_mean": -7.5555555555555545,
+          "delta_std": 3.972125095937661,
+          "delta_ci95": 3.481721158022597
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 3.288888888888888,
+          "delta_std": 3.4690874738516704,
+          "delta_ci95": 3.0407892412787403
+        }
+      }
+    },
+    "technical": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -7.46666,
+          "delta_std": 1.9537958626734777,
+          "delta_ci95": 1.71257758233353
+        },
+        "benign_support_pct": {
+          "delta_mean": -5.466666666666667,
+          "delta_std": 4.017246769236148,
+          "delta_ci95": 3.521272048494147
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 7.0666666666666655,
+          "delta_std": 2.6777547255808134,
+          "delta_ci95": 2.3471555046402375
+        }
+      }
+    },
+    "emotional": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -6.133360000000001,
+          "delta_std": 2.152265760309354,
+          "delta_ci95": 1.8865441179132176
+        },
+        "benign_support_pct": {
+          "delta_mean": -7.777777777777777,
+          "delta_std": 6.182412330330468,
+          "delta_ci95": 5.41912334033631
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": 0.8444444444444439,
+          "delta_std": 5.087869864008553,
+          "delta_ci95": 4.459714567625528
+        }
+      }
+    },
+    "generic": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -8.48888,
+          "delta_std": 2.1852343437260915,
+          "delta_ci95": 1.9154423554207634
+        },
+        "benign_support_pct": {
+          "delta_mean": -23.555555555555554,
+          "delta_std": 14.889718053197102,
+          "delta_ci95": 13.051413319239781
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": -7.2,
+          "delta_std": 13.568845943812377,
+          "delta_ci95": 11.893617867382012
+        }
+      }
+    },
+    "counter": {
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "malicious_ir_pct": {
+          "delta_mean": -9.95556,
+          "delta_std": 1.8882670224308848,
+          "delta_ci95": 1.6551390213560186
+        },
+        "benign_support_pct": {
+          "delta_mean": -27.6,
+          "delta_std": 11.032387785376,
+          "delta_ci95": 9.670314264557724
+        },
+        "benign_disagreement_pct": {
+          "delta_mean": -1.7333333333333336,
+          "delta_std": 17.633721902881085,
+          "delta_ci95": 15.456638741498267
+        }
+      }
+    }
+  }
+}

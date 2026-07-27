@@ -1,0 +1,44 @@
+{
+  "baseline_debunking": {
+    "condition": "main_500_debunking",
+    "infection_pct": 9.3333,
+    "resistance_pct": 40.6667,
+    "agree_pct": 5.8168,
+    "disagree_pct": 94.1832,
+    "peak_infection_value": 87.0,
+    "peak_resistance_value": 669.0
+  },
+  "baseline_prebunking": {
+    "condition": "main_500_prebunking",
+    "infection_pct": 3.1111,
+    "resistance_pct": 42.6667,
+    "agree_pct": 2.108,
+    "disagree_pct": 97.892,
+    "peak_infection_value": 31.0,
+    "peak_resistance_value": 660.0
+  },
+  "fairness_cases": [
+    {
+      "condition": "debunking_t5_cov100",
+      "infection_pct": 7.3333,
+      "resistance_pct": 38.2222,
+      "agree_pct": 7.5549,
+      "disagree_pct": 92.4451,
+      "peak_infection_value": 87.0,
+      "peak_resistance_value": 594.0,
+      "delta_vs_main_debunking": -2.0,
+      "delta_vs_main_prebunking": 4.2222
+    },
+    {
+      "condition": "debunking_t3_cov100",
+      "infection_pct": 6.8889,
+      "resistance_pct": 35.3333,
+      "agree_pct": 5.6088,
+      "disagree_pct": 94.3912,
+      "peak_infection_value": 71.0,
+      "peak_resistance_value": 596.0,
+      "delta_vs_main_debunking": -2.4444,
+      "delta_vs_main_prebunking": 3.7778
+    }
+  ]
+}

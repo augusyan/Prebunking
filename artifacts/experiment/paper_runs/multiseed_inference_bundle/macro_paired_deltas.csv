@@ -1,0 +1,11 @@
+reference_key,target_key,metric,shared_n,shared_seeds,delta_mean,delta_std,delta_ci95_t,bootstrap_low,bootstrap_high,cohen_dz,signflip_p
+no_defense,debunking,infection_rate_pct,5,42 52 62 72 82,-2.8445,2.0929,2.5983,-4.4445,-1.2444,-1.3591,0.125000
+no_defense,debunking,resistance_rate_pct,5,42 52 62 72 82,-1.0666,1.0704,1.3288,-1.9111,-0.2222,-0.9965,0.187500
+no_defense,prebunking,infection_rate_pct,5,42 52 62 72 82,-5.7778,1.5235,1.8914,-7.1111,-4.7555,-3.7924,0.062500
+no_defense,prebunking,resistance_rate_pct,5,42 52 62 72 82,3.7334,4.5144,5.6045,0.4000,7.4222,0.8270,0.187500
+debunking,prebunking,infection_rate_pct,5,42 52 62 72 82,-2.9333,1.3185,1.6368,-3.8667,-1.8222,-2.2248,0.062500
+debunking,prebunking,resistance_rate_pct,5,42 52 62 72 82,4.8000,4.1144,5.1079,2.0445,8.1333,1.1666,0.062500
+main_debunking_t5_postcov50,strengthened_debunking_t3_postcov100,infection_rate_pct,5,42 52 62 72 82,-0.4889,1.3644,1.6939,-1.6889,0.5333,-0.3583,0.562500
+main_debunking_t5_postcov50,strengthened_debunking_t3_postcov100,resistance_rate_pct,5,42 52 62 72 82,1.3778,2.3799,2.9546,-0.4889,3.2000,0.5789,0.312500
+strengthened_debunking_t3_postcov100,prebunking,infection_rate_pct,5,42 52 62 72 82,-2.4444,1.9116,2.3732,-4.0444,-1.0667,-1.2787,0.062500
+strengthened_debunking_t3_postcov100,prebunking,resistance_rate_pct,5,42 52 62 72 82,3.4222,3.3687,4.1821,0.9333,6.2222,1.0159,0.125000

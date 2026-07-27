@@ -1,0 +1,38 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{6pt}
+\caption{Auxiliary benign-post flow check for the headline full-coverage condition across the same five seeds used in the main macro comparison.}
+\label{tab:appendix_selectivity_checks}
+\begin{threeparttable}
+\begin{tabularx}{\textwidth}{
+  >{\centering\arraybackslash}p{0.08\textwidth}
+  >{\raggedright\arraybackslash}p{0.29\textwidth}
+  *{3}{>{\centering\arraybackslash}X}
+}
+\toprule
+\textbf{Seed} & \textbf{Condition} & \textbf{\shortstack{Malicious\\IR}} & \textbf{\shortstack{Benign\\Support}} & \textbf{\shortstack{Benign\\Disagreement}} \\
+\midrule
+42 & Cautious Role Full & 1.78\% & 28.67\% & 25.56\% \\
+42 & Message Exposure Full & 6.67\% & 32.44\% & 18.89\% \\
+42 & No Defense & 9.78\% & 36.44\% & 21.78\% \\
+42 & Prebunking & 4.22\% & 32.67\% & 23.11\% \\
+42 & Role Rewrite Full & 2.67\% & 31.33\% & 21.33\% \\
+52 & Cautious Role Full & 0.67\% & 26.67\% & 20.67\% \\
+52 & Message Exposure Full & 4.44\% & 33.56\% & 25.11\% \\
+52 & No Defense & 11.56\% & 41.56\% & 20.00\% \\
+52 & Prebunking & 5.56\% & 28.89\% & 30.44\% \\
+52 & Role Rewrite Full & 3.78\% & 26.22\% & 25.78\% \\
+\midrule
+\textbf{Mean $\pm$ SD} & \textbf{No Defense} & \textbf{10.67 $\pm$ 1.26\%} & \textbf{39.00 $\pm$ 3.61\%} & \textbf{20.89 $\pm$ 1.26\%} \\
+\textbf{Mean $\pm$ SD} & \textbf{Prebunking} & \textbf{4.89 $\pm$ 0.94\%} & \textbf{30.78 $\pm$ 2.67\%} & \textbf{26.78 $\pm$ 5.19\%} \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Benign support counts distinct benign agents who liked, reposted, or agreed with benign root posts authored by ordinary benign users in the same run.
+\item Benign disagreement counts distinct benign agents who disliked or publicly disagreed with those benign root posts.
+\item Unlike the earlier lower-intensity sanity check, this table directly evaluates the headline full-coverage condition on the same five seeds as the main macro comparison. It still remains an in-simulator proxy rather than a matched external verified-news benchmark.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

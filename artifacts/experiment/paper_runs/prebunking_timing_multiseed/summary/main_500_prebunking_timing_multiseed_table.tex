@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Multi-seed timing-window comparison for prebunking in the 500-agent setting.}
+\label{tab:prebunking_timing_multiseed_results}
+\begin{threeparttable}
+\begin{tabular}{lccccc}
+\toprule
+Timing Window & $n$ & IR $\downarrow$ & RR $\uparrow$ & Peak Infection $\downarrow$ & Peak Resistance $\uparrow$ \\
+\midrule
+t=1 & 5 & 4.22 $\pm$ 0.93 (CI $\pm$ 0.81) & 39.02 $\pm$ 4.33 (CI $\pm$ 3.80) & 43.4 $\pm$ 8.4 (CI $\pm$ 7.4) & 618.0 $\pm$ 82.1 (CI $\pm$ 72.0) \\
+t=3 & 5 & 7.24 $\pm$ 1.78 (CI $\pm$ 1.56) & 38.49 $\pm$ 3.02 (CI $\pm$ 2.65) & 73.4 $\pm$ 20.1 (CI $\pm$ 17.6) & 592.0 $\pm$ 98.0 (CI $\pm$ 85.9) \\
+t=6 & 5 & 7.56 $\pm$ 2.10 (CI $\pm$ 1.84) & 37.24 $\pm$ 2.30 (CI $\pm$ 2.02) & 89.2 $\pm$ 14.9 (CI $\pm$ 13.1) & 601.8 $\pm$ 19.5 (CI $\pm$ 17.1) \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Each cell reports mean $\pm$ sample std with the 95\% confidence-interval half-width shown in parentheses.
+\item All rows use the same prebunking wording and differ only in the intervention timestep.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

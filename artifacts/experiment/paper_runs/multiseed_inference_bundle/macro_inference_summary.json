@@ -1,0 +1,316 @@
+{
+  "summaries": [
+    {
+      "condition_key": "no_defense",
+      "display_name": "No Defense",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 10.35556,
+          "std": 2.0160120766007332,
+          "ci95_t": 2.5028083139499104,
+          "bootstrap_low": 8.799980000000001,
+          "bootstrap_high": 11.77782
+        },
+        "resistance_rate_pct": {
+          "mean": 35.28886,
+          "std": 2.8820460410964985,
+          "ci95_t": 3.5779591186800723,
+          "bootstrap_low": 33.11108,
+          "bootstrap_high": 37.55554
+        }
+      }
+    },
+    {
+      "condition_key": "debunking",
+      "display_name": "Debunking",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.511100000000001,
+          "std": 1.035189492315296,
+          "ci95_t": 1.2851514621127083,
+          "bootstrap_low": 6.7111,
+          "bootstrap_high": 8.311119999999999
+        },
+        "resistance_rate_pct": {
+          "mean": 34.22222,
+          "std": 2.0306181022043517,
+          "ci95_t": 2.5209411826657266,
+          "bootstrap_low": 32.71112,
+          "bootstrap_high": 35.82222
+        }
+      }
+    },
+    {
+      "condition_key": "prebunking",
+      "display_name": "Prebunking",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 4.57778,
+          "std": 1.0256268190721223,
+          "ci95_t": 1.2732797385380379,
+          "bootstrap_low": 3.8222,
+          "bootstrap_high": 5.333360000000001
+        },
+        "resistance_rate_pct": {
+          "mean": 39.02222,
+          "std": 3.2416793012264504,
+          "ci95_t": 4.024431202787739,
+          "bootstrap_low": 36.62224,
+          "bootstrap_high": 41.4222
+        }
+      }
+    },
+    {
+      "condition_key": "main_debunking_t5_postcov50",
+      "display_name": "Debunking t=5 50% post coverage",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.511100000000001,
+          "std": 1.035189492315296,
+          "ci95_t": 1.2851514621127083,
+          "bootstrap_low": 6.7111,
+          "bootstrap_high": 8.311119999999999
+        },
+        "resistance_rate_pct": {
+          "mean": 34.22222,
+          "std": 2.0306181022043517,
+          "ci95_t": 2.5209411826657266,
+          "bootstrap_low": 32.71112,
+          "bootstrap_high": 35.82222
+        }
+      }
+    },
+    {
+      "condition_key": "strengthened_debunking_t3_postcov100",
+      "display_name": "Debunking t=3 100% post coverage",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.02222,
+          "std": 1.436723209946857,
+          "ci95_t": 1.7836414952250035,
+          "bootstrap_low": 5.9111199999999995,
+          "bootstrap_high": 8.133320000000001
+        },
+        "resistance_rate_pct": {
+          "mean": 35.6,
+          "std": 1.346208210122046,
+          "ci95_t": 1.6712702962981145,
+          "bootstrap_low": 34.40002,
+          "bootstrap_high": 36.53332
+        }
+      }
+    }
+  ],
+  "paired_deltas": [
+    {
+      "reference_key": "no_defense",
+      "reference_display": "No Defense",
+      "target_key": "debunking",
+      "target_display": "Debunking",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -2.84446,
+          "delta_std": 2.09294682756156,
+          "delta_ci95_t": 2.598320110020643,
+          "bootstrap_low": -4.4445,
+          "bootstrap_high": -1.2444000000000002,
+          "cohen_dz": -1.359069405176437,
+          "signflip_p": 0.125
+        },
+        "resistance_rate_pct": {
+          "delta_mean": -1.066640000000001,
+          "delta_std": 1.0703856468581772,
+          "delta_ci95_t": 1.3288462540395103,
+          "bootstrap_low": -1.9111000000000005,
+          "bootstrap_high": -0.2221800000000016,
+          "cohen_dz": -0.9965006566846533,
+          "signflip_p": 0.1875
+        }
+      }
+    },
+    {
+      "reference_key": "no_defense",
+      "reference_display": "No Defense",
+      "target_key": "prebunking",
+      "target_display": "Prebunking",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -5.77778,
+          "delta_std": 1.5235270171546025,
+          "delta_ci95_t": 1.8914053786281073,
+          "bootstrap_low": -7.111140000000001,
+          "bootstrap_high": -4.75552,
+          "cohen_dz": -3.7923712116315493,
+          "signflip_p": 0.0625
+        },
+        "resistance_rate_pct": {
+          "delta_mean": 3.733359999999999,
+          "delta_std": 4.514426723627265,
+          "delta_ci95_t": 5.604502506583776,
+          "bootstrap_low": 0.4000399999999985,
+          "bootstrap_high": 7.42222,
+          "cohen_dz": 0.8269842946969593,
+          "signflip_p": 0.1875
+        }
+      }
+    },
+    {
+      "reference_key": "debunking",
+      "reference_display": "Debunking",
+      "target_key": "prebunking",
+      "target_display": "Prebunking",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -2.93332,
+          "delta_std": 1.31846019545529,
+          "delta_ci95_t": 1.6368221089039896,
+          "bootstrap_low": -3.8666600000000004,
+          "bootstrap_high": -1.8222199999999997,
+          "cohen_dz": -2.2248074004138347,
+          "signflip_p": 0.0625
+        },
+        "resistance_rate_pct": {
+          "delta_mean": 4.8,
+          "delta_std": 4.114391334085761,
+          "delta_ci95_t": 5.107872595265564,
+          "bootstrap_low": 2.0444599999999995,
+          "bootstrap_high": 8.133320000000001,
+          "cohen_dz": 1.1666367173764682,
+          "signflip_p": 0.0625
+        }
+      }
+    },
+    {
+      "reference_key": "main_debunking_t5_postcov50",
+      "reference_display": "Debunking t=5 50% post coverage",
+      "target_key": "strengthened_debunking_t3_postcov100",
+      "target_display": "Debunking t=3 100% post coverage",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -0.48888,
+          "delta_std": 1.3644194725230216,
+          "delta_ci95_t": 1.6938789401022418,
+          "bootstrap_low": -1.6888800000000004,
+          "bootstrap_high": 0.5333199999999998,
+          "cohen_dz": -0.35830623195078387,
+          "signflip_p": 0.5625
+        },
+        "resistance_rate_pct": {
+          "delta_mean": 1.37778,
+          "delta_std": 2.3799472971055478,
+          "delta_ci95_t": 2.954621131041004,
+          "bootstrap_low": -0.48886000000000107,
+          "bootstrap_high": 3.2,
+          "cohen_dz": 0.5789119791331653,
+          "signflip_p": 0.3125
+        }
+      }
+    },
+    {
+      "reference_key": "strengthened_debunking_t3_postcov100",
+      "reference_display": "Debunking t=3 100% post coverage",
+      "target_key": "prebunking",
+      "target_display": "Prebunking",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -2.44444,
+          "delta_std": 1.911611046473628,
+          "delta_ci95_t": 2.3731980952315612,
+          "bootstrap_low": -4.04444,
+          "bootstrap_high": -1.06668,
+          "cohen_dz": -1.2787329328888783,
+          "signflip_p": 0.0625
+        },
+        "resistance_rate_pct": {
+          "delta_mean": 3.4222200000000003,
+          "delta_std": 3.3686912506194453,
+          "delta_ci95_t": 4.18211208506091,
+          "bootstrap_low": 0.9333399999999997,
+          "bootstrap_high": 6.222200000000001,
+          "cohen_dz": 1.0158900728497193,
+          "signflip_p": 0.125
+        }
+      }
+    }
+  ]
+}

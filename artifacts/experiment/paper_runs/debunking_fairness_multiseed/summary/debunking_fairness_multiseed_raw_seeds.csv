@@ -1,0 +1,21 @@
+condition_key,display_name,seed,infection_rate_pct,resistance_rate_pct,agree_comment_pct,disagree_comment_pct,peak_infection_proxy_value,peak_resistance_value
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,42,6.4444,36.6667,7.1341,92.8659,92.0000,652.0000
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,52,6.0000,36.4444,10.9643,89.0357,103.0000,588.0000
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,62,8.6667,33.5556,10.0709,89.9291,122.0000,551.0000
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,72,8.4444,34.8889,12.0000,88.0000,132.0000,631.0000
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,82,5.5556,36.4444,6.4474,93.5526,71.0000,630.0000
+no_defense,No Defense,42,9.7778,32.4444,7.5441,92.4559,86.0000,519.0000
+no_defense,No Defense,52,11.5556,34.4444,13.0568,86.9432,139.0000,493.0000
+no_defense,No Defense,62,10.4444,37.1111,8.0933,91.9067,105.0000,597.0000
+no_defense,No Defense,72,7.3333,33.1111,6.7138,93.2862,77.0000,472.0000
+no_defense,No Defense,82,12.6667,39.3333,8.7855,91.2145,122.0000,623.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,42,6.6667,32.6667,9.1691,90.8309,96.0000,558.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,52,6.4444,34.2222,13.2075,86.7925,116.0000,529.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,62,8.8889,35.1111,10.7717,89.2283,110.0000,500.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,72,7.3333,32.0000,10.4132,89.5868,104.0000,481.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,82,8.2222,37.1111,5.9066,94.0934,85.0000,609.0000
+prebunking_full,Prebunking Full Coverage,42,4.2222,35.7778,3.4639,96.5361,40.0000,567.0000
+prebunking_full,Prebunking Full Coverage,52,5.5556,40.2222,1.5834,98.4166,37.0000,714.0000
+prebunking_full,Prebunking Full Coverage,62,5.5556,35.7778,5.1282,94.8718,67.0000,591.0000
+prebunking_full,Prebunking Full Coverage,72,3.1111,43.3333,2.1907,97.8093,31.0000,678.0000
+prebunking_full,Prebunking Full Coverage,82,4.4444,40.0000,3.1474,96.8526,36.0000,597.0000

@@ -1,0 +1,5 @@
+reference_key,target_key,metric,shared_n,shared_seeds,delta_mean,delta_std,delta_ci95_t,cohen_dz
+main_debunking_t5_postcov50,strengthened_debunking_t3_postcov100,infection_rate_pct,5,42 52 62 72 82,-0.4889,1.3644,1.6939,-0.3583
+main_debunking_t5_postcov50,strengthened_debunking_t3_postcov100,resistance_rate_pct,5,42 52 62 72 82,1.3778,2.3799,2.9546,0.5789
+prebunking_full,strengthened_debunking_t3_postcov100,infection_rate_pct,5,42 52 62 72 82,2.4444,1.9116,2.3732,1.2787
+prebunking_full,strengthened_debunking_t3_postcov100,resistance_rate_pct,5,42 52 62 72 82,-3.4222,3.3687,4.1821,-1.0159

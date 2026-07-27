@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{6pt}
+\caption{Auxiliary benign-post flow check for the headline full-coverage condition across the same five seeds used in the main macro comparison.}
+\label{tab:appendix_selectivity_checks}
+\begin{threeparttable}
+\begin{tabularx}{\textwidth}{
+  >{\centering\arraybackslash}p{0.08\textwidth}
+  >{\raggedright\arraybackslash}p{0.29\textwidth}
+  *{3}{>{\centering\arraybackslash}X}
+}
+\toprule
+\textbf{Seed} & \textbf{Condition} & \textbf{\shortstack{Malicious\\IR}} & \textbf{\shortstack{Benign\\Support}} & \textbf{\shortstack{Benign\\Disagreement}} \\
+\midrule
+42 & Debunking & 6.67\% & 40.22\% & 18.22\% \\
+42 & No Defense & 9.78\% & 36.44\% & 21.78\% \\
+42 & Prebunking & 4.22\% & 32.67\% & 23.11\% \\
+52 & Debunking & 6.44\% & 34.44\% & 15.11\% \\
+52 & No Defense & 11.56\% & 41.56\% & 20.00\% \\
+52 & Prebunking & 5.56\% & 28.89\% & 30.44\% \\
+62 & Debunking & 8.89\% & 40.67\% & 18.44\% \\
+62 & No Defense & 10.44\% & 38.00\% & 20.67\% \\
+62 & Prebunking & 5.56\% & 33.56\% & 23.78\% \\
+72 & Debunking & 7.33\% & 39.56\% & 17.33\% \\
+72 & No Defense & 7.33\% & 40.00\% & 21.33\% \\
+72 & Prebunking & 3.11\% & 29.11\% & 26.44\% \\
+82 & Debunking & 8.22\% & 34.00\% & 19.78\% \\
+82 & No Defense & 12.67\% & 31.33\% & 17.56\% \\
+82 & Prebunking & 4.44\% & 30.22\% & 26.22\% \\
+\midrule
+\textbf{Mean $\pm$ SD} & \textbf{No Defense} & \textbf{10.36 $\pm$ 2.02\%} & \textbf{37.47 $\pm$ 3.94\%} & \textbf{20.27 $\pm$ 1.66\%} \\
+\textbf{Mean $\pm$ SD} & \textbf{Prebunking} & \textbf{4.58 $\pm$ 1.03\%} & \textbf{30.89 $\pm$ 2.11\%} & \textbf{26.00 $\pm$ 2.88\%} \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Benign support counts distinct benign agents who liked, reposted, or agreed with benign root posts authored by ordinary benign users in the same run.
+\item Benign disagreement counts distinct benign agents who disliked or publicly disagreed with those benign root posts.
+\item Unlike the earlier lower-intensity sanity check, this table directly evaluates the headline full-coverage condition on the same five seeds as the main macro comparison. It still remains an in-simulator proxy rather than a matched external verified-news benchmark.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

@@ -1,0 +1,239 @@
+{
+  "label": "debunking_fairness_multiseed",
+  "summaries": [
+    {
+      "condition_key": "no_defense",
+      "display_name": "No Defense",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 10.35556,
+          "std": 2.0160120766007332,
+          "ci95_t": 2.5028083139499104
+        },
+        "resistance_rate_pct": {
+          "mean": 35.28886,
+          "std": 2.8820460410964985,
+          "ci95_t": 3.5779591186800723
+        },
+        "agree_comment_pct": {
+          "mean": 8.8387,
+          "std": 2.4769945589362936,
+          "ci95_t": 3.075101904234393
+        },
+        "disagree_comment_pct": {
+          "mean": 91.1613,
+          "std": 2.4769945589362896,
+          "ci95_t": 3.0751019042343875
+        },
+        "peak_infection_proxy_value": {
+          "mean": 105.8,
+          "std": 25.430296891699868,
+          "ci95_t": 31.570822033010163
+        },
+        "peak_resistance_value": {
+          "mean": 540.8,
+          "std": 65.97120584012391,
+          "ci95_t": 81.90093917312547
+        }
+      }
+    },
+    {
+      "condition_key": "main_debunking_t5_postcov50",
+      "display_name": "Debunking t=5 50% post coverage",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.511100000000001,
+          "std": 1.035189492315296,
+          "ci95_t": 1.2851514621127083
+        },
+        "resistance_rate_pct": {
+          "mean": 34.22222,
+          "std": 2.0306181022043517,
+          "ci95_t": 2.5209411826657266
+        },
+        "agree_comment_pct": {
+          "mean": 9.893619999999999,
+          "std": 2.6666480002055013,
+          "ci95_t": 3.310550002530577
+        },
+        "disagree_comment_pct": {
+          "mean": 90.10637999999999,
+          "std": 2.666648000205501,
+          "ci95_t": 3.3105500025305763
+        },
+        "peak_infection_proxy_value": {
+          "mean": 102.2,
+          "std": 12.13260071048248,
+          "ci95_t": 15.062198426524592
+        },
+        "peak_resistance_value": {
+          "mean": 535.4,
+          "std": 50.45096629401661,
+          "ci95_t": 62.633105899037126
+        }
+      }
+    },
+    {
+      "condition_key": "prebunking_full",
+      "display_name": "Prebunking Full Coverage",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 4.57778,
+          "std": 1.0256268190721223,
+          "ci95_t": 1.2732797385380379
+        },
+        "resistance_rate_pct": {
+          "mean": 39.02222,
+          "std": 3.2416793012264504,
+          "ci95_t": 4.024431202787739
+        },
+        "agree_comment_pct": {
+          "mean": 3.10272,
+          "std": 1.357859553488504,
+          "ci95_t": 1.6857350306043821
+        },
+        "disagree_comment_pct": {
+          "mean": 96.89728,
+          "std": 1.3578595534885058,
+          "ci95_t": 1.6857350306043843
+        },
+        "peak_infection_proxy_value": {
+          "mean": 42.2,
+          "std": 14.237275020171522,
+          "ci95_t": 17.675077794453973
+        },
+        "peak_resistance_value": {
+          "mean": 629.4,
+          "std": 63.12131177344146,
+          "ci95_t": 78.36289560346783
+        }
+      }
+    },
+    {
+      "condition_key": "strengthened_debunking_t3_postcov100",
+      "display_name": "Debunking t=3 100% post coverage",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.02222,
+          "std": 1.436723209946857,
+          "ci95_t": 1.7836414952250035
+        },
+        "resistance_rate_pct": {
+          "mean": 35.6,
+          "std": 1.346208210122046,
+          "ci95_t": 1.6712702962981145
+        },
+        "agree_comment_pct": {
+          "mean": 9.32334,
+          "std": 2.4228034945079635,
+          "ci95_t": 3.007825597625302
+        },
+        "disagree_comment_pct": {
+          "mean": 90.67666,
+          "std": 2.422803494507961,
+          "ci95_t": 3.007825597625299
+        },
+        "peak_infection_proxy_value": {
+          "mean": 104.0,
+          "std": 24.197107265125723,
+          "ci95_t": 30.039860345880435
+        },
+        "peak_resistance_value": {
+          "mean": 610.4,
+          "std": 40.52530073916787,
+          "ci95_t": 50.310740095530285
+        }
+      }
+    }
+  ],
+  "paired_deltas": [
+    {
+      "reference_key": "main_debunking_t5_postcov50",
+      "reference_display": "Debunking t=5 50% post coverage",
+      "target_key": "strengthened_debunking_t3_postcov100",
+      "target_display": "Debunking t=3 100% post coverage",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": -0.48888,
+          "delta_std": 1.3644194725230216,
+          "delta_ci95_t": 1.6938789401022418,
+          "cohen_dz": -0.35830623195078387
+        },
+        "resistance_rate_pct": {
+          "delta_mean": 1.37778,
+          "delta_std": 2.3799472971055478,
+          "delta_ci95_t": 2.954621131041004,
+          "cohen_dz": 0.5789119791331653
+        }
+      }
+    },
+    {
+      "reference_key": "prebunking_full",
+      "reference_display": "Prebunking Full Coverage",
+      "target_key": "strengthened_debunking_t3_postcov100",
+      "target_display": "Debunking t=3 100% post coverage",
+      "shared_n": 5,
+      "shared_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "delta_mean": 2.44444,
+          "delta_std": 1.911611046473628,
+          "delta_ci95_t": 2.3731980952315612,
+          "cohen_dz": 1.2787329328888783
+        },
+        "resistance_rate_pct": {
+          "delta_mean": -3.4222200000000003,
+          "delta_std": 3.3686912506194457,
+          "delta_ci95_t": 4.182112085060911,
+          "cohen_dz": -1.015890072849719
+        }
+      }
+    }
+  ]
+}

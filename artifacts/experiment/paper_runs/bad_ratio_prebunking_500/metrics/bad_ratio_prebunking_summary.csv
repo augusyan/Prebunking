@@ -1,0 +1,4 @@
+condition,bad_user_count,bad_ratio_pct,infection_rate_pct,resistance_rate_pct,agree_comment_pct,disagree_comment_pct,skepticism_pct,vigilance_pct,anger_pct,panic_pct,fanaticism_pct,confusion_pct,neutral_pct,source_json
+supp_prebunking_bad25,25,5.0,5.0526,26.5263,11.1349,88.8651,34.9036,26.7666,35.7602,1.0706638115631693,1.0706638115631693,0.4282655246252677,0.0,artifacts/experiment/paper_runs/bad_ratio_prebunking_500/metrics/supp_prebunking_bad25_metrics.json
+supp_prebunking_bad50,50,10.0,5.5556,36.4444,3.752,96.248,33.9315,16.1501,47.3083,1.468189233278956,0.8156606851549756,0.3262642740619902,0.0,artifacts/experiment/paper_runs/bad_ratio_prebunking_500/metrics/supp_prebunking_bad50_metrics.json
+supp_prebunking_bad75,75,15.0,6.3529,37.4118,6.242,93.758,43.6943,21.9108,32.9936,0.25477707006369427,0.7643312101910829,0.3821656050955414,0.0,artifacts/experiment/paper_runs/bad_ratio_prebunking_500/metrics/supp_prebunking_bad75_metrics.json

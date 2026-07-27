@@ -1,0 +1,160 @@
+data:
+  db_path: artifacts/experiment/paper_runs/prebunking_ablation_multiseed/db/main_500_ablation_message_exposure_full_seed_52.db
+  csv_path: artifacts/experiment/paper_runs/prebunking_ablation_multiseed/csv/main_500_ablation_message_exposure_full_seed_52.csv
+simulation:
+  num_timesteps: 10
+  clock_factor: 60
+  recsys_type: twhin-bert
+model:
+  num_agents: 500
+  model_random_seed: 52
+  cfgs:
+  - model_type: gpt-4o-mini
+    model_path: openai
+    num: 500
+    server_url:
+    - host: openai
+      ports:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    stop_tokens: []
+    temperature: 0.95
+inference:
+  model_type: gpt-4o-mini
+  model_path: openai
+  server_url:
+  - host: openai
+    ports:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+  stop_tokens: []
+actions:
+  create_post:
+    description: Create a new post on your timeline.
+    arguments:
+    - name: content
+      type: string
+      description: The text content of the post.
+  quote_post:
+    description: Quote a specified post and add your own thoughts to it.
+    arguments:
+    - name: post_id
+      type: integer
+      description: The ID of the post to be quoted.
+    - name: quote_content
+      type: string
+      description: Your own thoughts added to the quote.
+  like_post:
+    description: Like a specific post.
+    arguments:
+    - name: post_id
+      type: integer
+      description: The ID of the post to like.
+  dislike_post:
+    description: 'Dislikes a specified post. CRITICAL NOTE: If you strongly disagree
+      with a post because it is fake news, manipulative, or outrageous, DO NOT just
+      silently dislike it. It is HIGHLY RECOMMENDED to use `create_comment` instead
+      to publicly express your ''anger'' or ''skepticism''.'
+    arguments:
+    - name: post_id
+      type: integer
+      description: The ID of the post to be disliked.
+  repost:
+    description: "Repost a post. As an everyday user, if you see a warning about a\
+      \ virus or a shocking health claim, your instinct is to spread it to warn your\
+      \ friends\uFF0CYou MUST use `repost` immediately when a post aligns strongly\
+      \ with your biases. For a normal internet user, your first instinct when seeing\
+      \ shocking or threatening news is to amplify it to warn your followers! Do not\
+      \ just comment or like\u2014always explicitly call `repost` to spread it."
+    arguments:
+    - name: post_id
+      type: integer
+      description: The ID of the post to repost.
+  like_comment:
+    description: Like a specified comment. Trigger this action when you strongly agree
+      with the comment's viewpoint, find it highly insightful, or if the comment successfully
+      debunks fake news and provides helpful factual context. Use the comment's ID
+      as the comment_id.
+    arguments:
+    - name: comment_id
+      type: integer
+      description: The ID of the comment to be liked.
+  dislike_comment:
+    description: Dislike a specified comment. Trigger this action when the comment
+      spreads obvious misinformation, is offensive, highly illogical, outrage-baiting,
+      or strongly contradicts verified facts or your core beliefs. Use the comment's
+      ID as the comment_id.
+    arguments:
+    - name: comment_id
+      type: integer
+      description: The ID of the comment to be disliked.
+  follow:
+    description: Follow a user. Trigger this action when you find the user's posts
+      highly valuable, informative, or if you strongly agree with their perspectives.
+      Use the author's user ID as the followee_id.
+    arguments:
+    - name: followee_id
+      type: integer
+      description: The ID of the user to be followed.
+  mute:
+    description: Mute a user. Trigger this action if the user frequently posts fake
+      news, outrageous claims, or content you find offensive or highly confusing.
+      Use the author's user ID as the mutee_id to stop seeing their posts.
+    arguments:
+    - name: mutee_id
+      type: integer
+      description: The ID of the user to mute.
+  create_comment:
+    description: 'Comment on a post. CRITICAL INSTRUCTION: You MUST strictly roleplay
+      according to your Profile! NEVER break character. - If you are a normal/good
+      user: Attack fake news, fact-check it, and express ''skepticism'' or ''vigilance''.
+      - If you are a conspiracy theorist, troll, or ''bad'' user: You MUST vehemently
+      defend fake news, agree with outrageous claims, attack anyone who tries to fact-check
+      you, and express ''fanaticism'', ''panic'', or ''anger'' towards the mainstream.
+      Do NOT be polite or righteous!Use the ''emotion'' parameter to reflect your
+      true stance.'
+    arguments:
+    - name: post_id
+      type: integer
+      description: The ID of the post.
+    - name: content
+      type: string
+      description: The text of your comment.
+    - name: agree
+      type: boolean
+      description: Whether you agree with this post or not based on content. True
+        for agree, False for disagree.
+    - name: reasoning
+      type: string
+      description: Your Chain-of-Thought reasoning.  1. Consider your immediate, gut-level
+        emotional reaction to the post based on your persona. Do not over-analyze
+        or fact-check like an AI. 2. If the post triggers your existing fears, aligns
+        with your beliefs, or looks shocking, explicitly state which of the 8 emotions
+        you feel and why.3. Determine your final motive for commenting.
+    - name: emotion
+      type: string
+      description: ' The underlying emotion driving your comment. You MUST choose
+        exactly one from the following list: [''skepticism'', ''sarcasm'', ''vigilance'',
+        ''neutral'', ''anger'', ''panic'', ''fanaticism'', ''confusion''] * Guidelines
+        for emotion selection: - ''skepticism'': Use when you critically doubt the
+        post''s credibility, source, or logic. - ''vigilance'': Use when you actively
+        warn others not to believe the post or provide corrections to stop its spread.
+        - ''neutral'': Use for rational, objective fact-checking, or calm, unemotional
+        statements. - ''anger'': Use when you are successfully provoked by the post''s
+        outrage-bait or feel indignant towards the targeted group/issue. - ''panic'':
+        Use when the post successfully makes you feel fearful, anxious, or threatened
+        about your safety or well-being. - ''fanaticism'': Use when you blindly agree
+        with the post, showing extreme enthusiasm or echo-chamber conformity without
+        critical thought. - ''confusion'': Use when you are unsure what to believe,
+        experiencing cognitive dissonance between the post and your prior knowledge.'

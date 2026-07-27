@@ -1,0 +1,11 @@
+condition,n,malicious_ir_pct_mean,malicious_ir_pct_std,malicious_ir_pct_ci95,benign_support_pct_mean,benign_support_pct_std,benign_support_pct_ci95,benign_disagreement_pct_mean,benign_disagreement_pct_std,benign_disagreement_pct_ci95
+no_defense,1,9.7778,0.0000,0.0000,36.4444,0.0000,0.0000,21.7778,0.0000,0.0000
+prebunking,1,4.2222,0.0000,0.0000,32.6667,0.0000,0.0000,23.1111,0.0000,0.0000
+supp_prebunking_t1_500,1,2.4444,0.0000,0.0000,31.5556,0.0000,0.0000,28.8889,0.0000,0.0000
+supp_prebunking_t3,1,5.1111,0.0000,0.0000,30.8889,0.0000,0.0000,25.7778,0.0000,0.0000
+supp_prebunking_t6,1,11.3333,0.0000,0.0000,32.6667,0.0000,0.0000,23.5556,0.0000,0.0000
+supp_prebunking_fact,1,4.4444,0.0000,0.0000,30.6667,0.0000,0.0000,30.6667,0.0000,0.0000
+supp_prebunking_logic,1,3.3333,0.0000,0.0000,29.7778,0.0000,0.0000,25.3333,0.0000,0.0000
+supp_prebunking_technical,1,3.1111,0.0000,0.0000,26.4444,0.0000,0.0000,29.7778,0.0000,0.0000
+supp_prebunking_emotional,1,4.6667,0.0000,0.0000,29.3333,0.0000,0.0000,23.5556,0.0000,0.0000
+supp_prebunking_random_feed,1,9.7778,0.0000,0.0000,20.2222,0.0000,0.0000,28.6667,0.0000,0.0000

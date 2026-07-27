@@ -1,0 +1,6 @@
+condition_key,display_name,n,seeds,infection_rate_pct_mean,infection_rate_pct_std,infection_rate_pct_ci95_t,infection_rate_pct_bootstrap_low,infection_rate_pct_bootstrap_high,resistance_rate_pct_mean,resistance_rate_pct_std,resistance_rate_pct_ci95_t,resistance_rate_pct_bootstrap_low,resistance_rate_pct_bootstrap_high
+no_defense,No Defense,5,42 52 62 72 82,10.3556,2.0160,2.5028,8.8000,11.7778,35.2889,2.8820,3.5780,33.1111,37.5555
+debunking,Debunking,5,42 52 62 72 82,7.5111,1.0352,1.2852,6.7111,8.3111,34.2222,2.0306,2.5209,32.7111,35.8222
+prebunking,Prebunking,5,42 52 62 72 82,4.5778,1.0256,1.2733,3.8222,5.3334,39.0222,3.2417,4.0244,36.6222,41.4222
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,5,42 52 62 72 82,7.5111,1.0352,1.2852,6.7111,8.3111,34.2222,2.0306,2.5209,32.7111,35.8222
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,5,42 52 62 72 82,7.0222,1.4367,1.7836,5.9111,8.1333,35.6000,1.3462,1.6713,34.4000,36.5333

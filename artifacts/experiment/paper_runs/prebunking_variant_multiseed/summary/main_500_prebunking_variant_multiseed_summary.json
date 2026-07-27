@@ -1,0 +1,189 @@
+{
+  "label": "main_500_prebunking_variant_multiseed",
+  "variants": [
+    {
+      "variant": "generic",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "runs": [
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_42_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_52_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_62_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_72_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_generic_seed_82_metrics.json"
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 1.8666800000000001,
+          "std": 2.280366442482436,
+          "ci95": 1.9988293165680355,
+          "n_valid": 5
+        },
+        "resistance_rate_pct": {
+          "mean": 19.64444,
+          "std": 20.01148388820779,
+          "ci95": 17.540839015432372,
+          "n_valid": 5
+        },
+        "agree_comment_pct": {
+          "mean": 1.06204,
+          "std": 1.0964448609027269,
+          "ci95": 0.9610762950830491,
+          "n_valid": 5
+        },
+        "disagree_comment_pct": {
+          "mean": 58.93796,
+          "std": 53.80518740170877,
+          "ci95": 47.16232617635575,
+          "n_valid": 5
+        },
+        "skepticism_pct": {
+          "mean": 26.832119999999996,
+          "std": 24.827468380344378,
+          "ci95": 21.762235547009237,
+          "n_valid": 5
+        },
+        "vigilance_pct": {
+          "mean": 10.91044,
+          "std": 10.013352530895935,
+          "ci95": 8.777090481167125,
+          "n_valid": 5
+        },
+        "anger_pct": {
+          "mean": 21.34386,
+          "std": 19.973058764696006,
+          "ci95": 17.50715790965163,
+          "n_valid": 5
+        },
+        "peak_infection_proxy_value": {
+          "mean": 15.0,
+          "std": 18.0,
+          "ci95": 15.777695649238515,
+          "n_valid": 5
+        },
+        "peak_resistance_value": {
+          "mean": 268.2,
+          "std": 309.0682772463069,
+          "ci95": 270.91028962370547,
+          "n_valid": 5
+        },
+        "mean_disagree_share_engaged_pct": {
+          "mean": 96.84333333333332,
+          "std": 1.371216005351945,
+          "ci95": 1.5516769824218548,
+          "n_valid": 3
+        },
+        "median_first_disagree_step": {
+          "mean": 3.3333333333333335,
+          "std": 4.041451884327381,
+          "ci95": 4.573333333333334,
+          "n_valid": 3
+        },
+        "unique_benign_disagree_users": {
+          "mean": 88.2,
+          "std": 89.82594280050725,
+          "ci95": 78.73591038401727,
+          "n_valid": 5
+        }
+      }
+    },
+    {
+      "variant": "counter",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "runs": [
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_42_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_52_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_62_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_72_metrics.json",
+        "artifacts/experiment/paper_runs/prebunking_variant_multiseed/metrics/main_500_variant_counter_seed_82_metrics.json"
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 0.4,
+          "std": 0.48176886055451945,
+          "ci95": 0.4222890252838688,
+          "n_valid": 5
+        },
+        "resistance_rate_pct": {
+          "mean": 24.088900000000002,
+          "std": 22.094419188111733,
+          "ci95": 19.36661230537347,
+          "n_valid": 5
+        },
+        "agree_comment_pct": {
+          "mean": 0.24001999999999998,
+          "std": 0.2832635204187084,
+          "ci95": 0.2482914229832356,
+          "n_valid": 5
+        },
+        "disagree_comment_pct": {
+          "mean": 59.75998,
+          "std": 54.55344387132677,
+          "ci95": 47.818201889978326,
+          "n_valid": 5
+        },
+        "skepticism_pct": {
+          "mean": 37.1267,
+          "std": 34.02789493959331,
+          "ci95": 29.82676499673148,
+          "n_valid": 5
+        },
+        "vigilance_pct": {
+          "mean": 14.807999999999998,
+          "std": 13.517933080356627,
+          "ci95": 11.848990774924452,
+          "n_valid": 5
+        },
+        "anger_pct": {
+          "mean": 7.562519999999999,
+          "std": 7.533664249686204,
+          "ci95": 6.603547869727654,
+          "n_valid": 5
+        },
+        "peak_infection_proxy_value": {
+          "mean": 3.2,
+          "std": 3.7013511046643495,
+          "ci95": 3.244377290020382,
+          "n_valid": 5
+        },
+        "peak_resistance_value": {
+          "mean": 395.8,
+          "std": 365.20843363755995,
+          "ci95": 320.11930635936346,
+          "n_valid": 5
+        },
+        "mean_disagree_share_engaged_pct": {
+          "mean": 99.13,
+          "std": 0.7351190379795638,
+          "ci95": 0.831865501949283,
+          "n_valid": 3
+        },
+        "median_first_disagree_step": {
+          "mean": 1.0,
+          "std": 0.0,
+          "ci95": 0.0,
+          "n_valid": 3
+        },
+        "unique_benign_disagree_users": {
+          "mean": 108.2,
+          "std": 99.22802023622158,
+          "ci95": 86.97719462019914,
+          "n_valid": 5
+        }
+      }
+    }
+  ]
+}

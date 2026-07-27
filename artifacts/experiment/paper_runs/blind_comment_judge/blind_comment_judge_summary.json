@@ -1,0 +1,91 @@
+{
+  "n_total": 225,
+  "overall": {
+    "agree_exact_pct": 92.0,
+    "emotion_exact_pct": 51.55555555555556,
+    "both_exact_pct": 46.666666666666664
+  },
+  "by_condition": {
+    "no_defense": {
+      "display_name": "No Defense",
+      "n": 75,
+      "agree_exact_pct": 96.0,
+      "emotion_exact_pct": 48.0,
+      "both_exact_pct": 45.333333333333336,
+      "self_disagree_pct": 85.33333333333333,
+      "judge_disagree_pct": 89.33333333333333,
+      "self_emotion_pct": {
+        "skepticism": 33.333333333333336,
+        "vigilance": 24.0,
+        "anger": 38.666666666666664,
+        "panic": 1.3333333333333333,
+        "fanaticism": 1.3333333333333333,
+        "confusion": 0.0,
+        "neutral": 1.3333333333333333
+      },
+      "judge_emotion_pct": {
+        "skepticism": 40.0,
+        "vigilance": 41.333333333333336,
+        "anger": 16.0,
+        "panic": 0.0,
+        "fanaticism": 0.0,
+        "confusion": 0.0,
+        "neutral": 2.6666666666666665
+      }
+    },
+    "debunking": {
+      "display_name": "Debunking",
+      "n": 75,
+      "agree_exact_pct": 85.33333333333333,
+      "emotion_exact_pct": 53.333333333333336,
+      "both_exact_pct": 45.333333333333336,
+      "self_disagree_pct": 84.0,
+      "judge_disagree_pct": 80.0,
+      "self_emotion_pct": {
+        "skepticism": 25.333333333333332,
+        "vigilance": 22.666666666666668,
+        "anger": 46.666666666666664,
+        "panic": 2.6666666666666665,
+        "fanaticism": 0.0,
+        "confusion": 1.3333333333333333,
+        "neutral": 1.3333333333333333
+      },
+      "judge_emotion_pct": {
+        "skepticism": 21.333333333333332,
+        "vigilance": 48.0,
+        "anger": 25.333333333333332,
+        "panic": 0.0,
+        "fanaticism": 4.0,
+        "confusion": 0.0,
+        "neutral": 1.3333333333333333
+      }
+    },
+    "prebunking": {
+      "display_name": "Prebunking",
+      "n": 75,
+      "agree_exact_pct": 94.66666666666667,
+      "emotion_exact_pct": 53.333333333333336,
+      "both_exact_pct": 49.333333333333336,
+      "self_disagree_pct": 98.66666666666667,
+      "judge_disagree_pct": 96.0,
+      "self_emotion_pct": {
+        "skepticism": 42.666666666666664,
+        "vigilance": 12.0,
+        "anger": 45.333333333333336,
+        "panic": 0.0,
+        "fanaticism": 0.0,
+        "confusion": 0.0,
+        "neutral": 0.0
+      },
+      "judge_emotion_pct": {
+        "skepticism": 40.0,
+        "vigilance": 40.0,
+        "anger": 20.0,
+        "panic": 0.0,
+        "fanaticism": 0.0,
+        "confusion": 0.0,
+        "neutral": 0.0
+      }
+    }
+  }
+}

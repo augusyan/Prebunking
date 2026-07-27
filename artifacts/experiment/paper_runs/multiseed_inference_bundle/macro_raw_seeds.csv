@@ -1,0 +1,31 @@
+condition_key,display_name,seed,infection_rate_pct,resistance_rate_pct
+no_defense,No Defense,42,9.7778,32.4444
+no_defense,No Defense,52,11.5556,34.4444
+no_defense,No Defense,62,10.4444,37.1111
+no_defense,No Defense,72,7.3333,33.1111
+no_defense,No Defense,82,12.6667,39.3333
+debunking,Debunking,42,6.6667,32.6667
+debunking,Debunking,52,6.4444,34.2222
+debunking,Debunking,62,8.8889,35.1111
+debunking,Debunking,72,7.3333,32.0000
+debunking,Debunking,82,8.2222,37.1111
+prebunking,Prebunking,42,4.2222,35.7778
+prebunking,Prebunking,52,5.5556,40.2222
+prebunking,Prebunking,62,5.5556,35.7778
+prebunking,Prebunking,72,3.1111,43.3333
+prebunking,Prebunking,82,4.4444,40.0000
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,42,6.4444,36.6667
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,52,6.0000,36.4444
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,62,8.6667,33.5556
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,72,8.4444,34.8889
+strengthened_debunking_t3_postcov100,Debunking t=3 100% post coverage,82,5.5556,36.4444
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,42,6.6667,32.6667
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,52,6.4444,34.2222
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,62,8.8889,35.1111
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,72,7.3333,32.0000
+main_debunking_t5_postcov50,Debunking t=5 50% post coverage,82,8.2222,37.1111
+prebunking_full,Prebunking Full Coverage,42,4.2222,35.7778
+prebunking_full,Prebunking Full Coverage,52,5.5556,40.2222
+prebunking_full,Prebunking Full Coverage,62,5.5556,35.7778
+prebunking_full,Prebunking Full Coverage,72,3.1111,43.3333
+prebunking_full,Prebunking Full Coverage,82,4.4444,40.0000

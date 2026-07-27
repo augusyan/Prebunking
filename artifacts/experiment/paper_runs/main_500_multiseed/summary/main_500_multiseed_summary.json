@@ -1,0 +1,200 @@
+{
+  "label": "main_500_multiseed",
+  "conditions": [
+    {
+      "condition": "no_defense",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "runs": [
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_42_no_defense_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_52_no_defense_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_62_no_defense_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_72_no_defense_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_82_no_defense_metrics.json"
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 10.35556,
+          "std": 2.0160120766007332,
+          "ci95": 1.7671124983219828
+        },
+        "resistance_rate_pct": {
+          "mean": 35.28886,
+          "std": 2.8820460410964985,
+          "ci95": 2.526224737972962
+        },
+        "agree_comment_pct": {
+          "mean": 8.8387,
+          "std": 2.4769945589362936,
+          "ci95": 2.1711814597620354
+        },
+        "disagree_comment_pct": {
+          "mean": 91.1613,
+          "std": 2.4769945589362896,
+          "ci95": 2.171181459762032
+        },
+        "skepticism_pct": {
+          "mean": 28.158860000000004,
+          "std": 4.199449018978562,
+          "ci95": 3.680979361996501
+        },
+        "vigilance_pct": {
+          "mean": 22.119359999999997,
+          "std": 2.7236578571839747,
+          "ci95": 2.3873913735169943
+        },
+        "anger_pct": {
+          "mean": 45.41318,
+          "std": 4.339422334481859,
+          "ci95": 3.803671382609048
+        },
+        "peak_infection_proxy_value": {
+          "mean": 105.8,
+          "std": 25.430296891699868,
+          "ci95": 22.290638034834263
+        },
+        "peak_resistance_value": {
+          "mean": 540.8,
+          "std": 65.97120584012391,
+          "ci95": 57.82631151993009
+        }
+      }
+    },
+    {
+      "condition": "debunking",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "runs": [
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_42_debunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_52_debunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_62_debunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_72_debunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_82_debunking_metrics.json"
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 7.511100000000001,
+          "std": 1.035189492315296,
+          "ci95": 0.9073835971689153
+        },
+        "resistance_rate_pct": {
+          "mean": 34.22222,
+          "std": 2.0306181022043517,
+          "ci95": 1.779915244245254
+        },
+        "agree_comment_pct": {
+          "mean": 9.893619999999999,
+          "std": 2.6666480002055013,
+          "ci95": 2.3374200306051622
+        },
+        "disagree_comment_pct": {
+          "mean": 90.10637999999999,
+          "std": 2.666648000205501,
+          "ci95": 2.3374200306051622
+        },
+        "skepticism_pct": {
+          "mean": 26.5072,
+          "std": 4.186509714547429,
+          "ci95": 3.6696375615949863
+        },
+        "vigilance_pct": {
+          "mean": 21.271179999999998,
+          "std": 3.0620982254003533,
+          "ci95": 2.6840474360244517
+        },
+        "anger_pct": {
+          "mean": 46.55932,
+          "std": 4.501873410259334,
+          "ci95": 3.9460660288039584
+        },
+        "peak_infection_proxy_value": {
+          "mean": 102.2,
+          "std": 12.13260071048248,
+          "ci95": 10.634693413540418
+        },
+        "peak_resistance_value": {
+          "mean": 535.4,
+          "std": 50.45096629401661,
+          "ci95": 44.222221744276936
+        }
+      }
+    },
+    {
+      "condition": "prebunking",
+      "n": 5,
+      "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+      ],
+      "runs": [
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_42_prebunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_52_prebunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_62_prebunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_72_prebunking_metrics.json",
+        "artifacts/experiment/paper_runs/main_500_multiseed/metrics/main_500_seed_82_prebunking_metrics.json"
+      ],
+      "metrics": {
+        "infection_rate_pct": {
+          "mean": 4.57778,
+          "std": 1.0256268190721223,
+          "ci95": 0.8990015445009201
+        },
+        "resistance_rate_pct": {
+          "mean": 39.02222,
+          "std": 3.2416793012264504,
+          "ci95": 2.8414571892881733
+        },
+        "agree_comment_pct": {
+          "mean": 3.10272,
+          "std": 1.357859553488504,
+          "ci95": 1.19021637607514
+        },
+        "disagree_comment_pct": {
+          "mean": 96.89728,
+          "std": 1.3578595534885058,
+          "ci95": 1.1902163760751419
+        },
+        "skepticism_pct": {
+          "mean": 43.70134,
+          "std": 4.139078440063682,
+          "ci95": 3.628062216424983
+        },
+        "vigilance_pct": {
+          "mean": 19.52988,
+          "std": 2.5073296406735195,
+          "ci95": 2.1977713312700753
+        },
+        "anger_pct": {
+          "mean": 35.0288,
+          "std": 3.24935176689136,
+          "ci95": 2.8481824019626276
+        },
+        "peak_infection_proxy_value": {
+          "mean": 42.2,
+          "std": 14.237275020171522,
+          "ci95": 12.47952178570958
+        },
+        "peak_resistance_value": {
+          "mean": 629.4,
+          "std": 63.12131177344146,
+          "ci95": 55.32826923011418
+        }
+      }
+    }
+  ]
+}

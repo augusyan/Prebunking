@@ -1,0 +1,6 @@
+condition,n,malicious_ir_pct_mean,malicious_ir_pct_std,malicious_ir_pct_ci95,benign_support_pct_mean,benign_support_pct_std,benign_support_pct_ci95,benign_disagreement_pct_mean,benign_disagreement_pct_std,benign_disagreement_pct_ci95
+no_defense,2,10.6667,1.2571,1.7422,39.0000,3.6141,5.0089,20.8889,1.2571,1.7422
+prebunking,2,4.8889,0.9429,1.3067,30.7778,2.6713,3.7022,26.7778,5.1854,7.1867
+role_rewrite_full,2,3.2222,0.7857,1.0889,28.7778,3.6141,5.0089,23.5556,3.1427,4.3556
+cautious_role_full,2,1.2223,0.7857,1.0889,27.6667,1.4142,1.9600,23.1111,3.4570,4.7911
+message_exposure_full,2,5.5556,1.5714,2.1779,33.0000,0.7857,1.0889,22.0000,4.3998,6.0978
